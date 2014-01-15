@@ -1,9 +1,10 @@
 #Circuit-Boards
-==============
 
-A collection of my open-source designs
 
-##Strutz Library.lbr is a collection the parts I've made.  Some of the packages are copied from other libraries.
+A collection of my circuit boards and devices
+
+##Strutz Library.lbr 
+###This is a collection the parts I've made.  Some of the packages are copied from other libraries.
 I'll list the important devices here:
 
 * **25AA1024** -         DFN8-5x6
@@ -52,7 +53,7 @@ I'll list the important devices here:
 * **XS1-L8A-128** -      QFN-124
 * **XTAG-2**  -          MOLEX-52745-2097
 
-##On to the projects!
+##On to the boards!
 
 * **ADSP-21477...** - Breaks out the 88-QFN package of this DSP from Analog Devices
 * **CS4344**  - Breaks out this Analog to Digital Converter from Cirrus
