@@ -1,0 +1,30 @@
+Web ID,Access ID,Salesorder Number,Shipping Method,Payment Method,
+49488633,84900,37873471,U.S. Postal Service Priority Mail* (2-3 Day Delivery to most US addresses)(order by 8:00 PM CT),Discover,
+
+Shipping Address
+First Name,Last Name,Company,Mail Stop,Address Line 1,Address Line 2,City,State,Postal Code,Country,Email Address,Telephone,
+Shannon,Strutz,,,7121 Spring Hill Drive,,Middleton,WI,53562,USA,,6084439589,
+
+Billing Address
+First Name,Last Name,Company,Mail Stop,Address Line 1,Address Line 2,City,State,Postal Code,Country,Email Address,Telephone,
+Shannon,Strutz,SEI,,7121 Spring Hill Drive,,Middleton,WI,53562,USA,,6084439589,
+
+Index,Quantity,Part Number,Description,Customer Reference,Available Quantity,Backorder Quantity,Unit Price USD,Extended Price USD,
+1,3,598-1189-ND,IC ADC 24BIT SRL 96KHZ 10-TSSOP,,3,0,3.99000,$11.97,
+2,3,598-1051-5-ND,IC DAC STER 24BIT 192KHZ 10TSSOP,,3,0,2.87000,$8.61,
+3,100,1276-1004-1-ND,CAP CER 0.1UF 16V Y5V 0402,,100,0,0.00550,$0.55,
+4,100,445-4979-1-ND,CAP CER 1UF 16V 20% X5R 0402,,100,0,0.03800,$3.80,
+5,3,445-8920-1-ND,CAP CER 10UF 6.3V 20% X5R 0402,,3,0,0.49000,$1.47,
+6,10,399-10124-1-ND,CAP TANT 3.3UF 16V 10% 1206,,10,0,0.28000,$2.80,
+7,100,1276-1032-1-ND,CAP CER 1000PF 50V 10% X7R 0402,,100,0,0.00570,$0.57,
+8,100,1276-1268-1-ND,CAP CER 2700PF 50V 10% X7R 0402,,100,0,0.00570,$0.57,
+9,50,P3.32KHCT-ND,RES 3.32K OHM 1/10W 1% 0603 SMD,,50,0,0.01500,$0.75,
+10,50,P470GCT-ND,RES 470 OHM 1/10W 5% 0603 SMD,,50,0,0.01260,$0.63,
+11,50,P10KGCT-ND,RES 10K OHM 1/10W 5% 0603 SMD,,50,0,0.01260,$0.63,
+12,50,P6.81KHCT-ND,RES 6.81K OHM 1/10W 1% 0603 SMD,,50,0,0.01500,$0.75,
+13,25,MH2029-221YCT-ND,BEAD FERRITE 220 OHM 2.0A 0805,,25,0,0.05280,$1.32,
+14,10,BAT54S-FDICT-ND,DIODE SCHOTTKY 30V 200MA SOT23,,10,0,0.18400,$1.84,
+,,,,,,Subtotal,$36.26
+,,,,,,Shipping,unknown
+,,,,,,Estimated Sales Tax,$1.99
+,,,,,,Total,unknown
