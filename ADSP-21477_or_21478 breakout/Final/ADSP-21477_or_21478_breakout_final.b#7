@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.0125" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -208,7 +208,6 @@
 <text x="27.94" y="53.975" size="1.4224" layer="112">VDD_EXT
 VDD_THD
 3.3V</text>
-<text x="19.05" y="1.27" size="1.4224" layer="20">SHANNON STRUTZ</text>
 <hole x="6.35" y="-2.54" drill="3.175"/>
 <hole x="50.8" y="-2.54" drill="3.175"/>
 <hole x="6.35" y="66.04" drill="3.175"/>
@@ -227,7 +226,6 @@ VDD_THD
 <wire x1="25.4" y1="34.29" x2="25.4" y2="43.18" width="0.254" layer="112"/>
 <wire x1="25.4" y1="43.18" x2="14.605" y2="43.18" width="0.254" layer="112"/>
 <wire x1="14.605" y1="43.18" x2="14.605" y2="34.29" width="0.254" layer="112"/>
-<text x="15.24" y="41.275" size="1.016" layer="112">Clock Config</text>
 <text x="15.24" y="38.735" size="0.8128" layer="112">00 = 8:1</text>
 <text x="15.24" y="37.465" size="0.8128" layer="112">01 = 32:1</text>
 <text x="15.24" y="36.195" size="0.8128" layer="112">10 = 16:1</text>
@@ -250,6 +248,8 @@ VDD_THD
 <hole x="33.02" y="-2.54" drill="3.175"/>
 <hole x="41.91" y="-2.54" drill="3.175"/>
 <rectangle x1="22.86" y1="60.96" x2="43.18" y2="63.5" layer="16"/>
+<text x="15.24" y="41.275" size="0.9652" layer="112">Clock Config 1-0</text>
+<text x="16.51" y="1.27" size="1.778" layer="112">SHANNON STRUTZ</text>
 </plain>
 <libraries>
 <library name="Strutz Electronic Industries">

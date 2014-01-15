@@ -227,7 +227,6 @@ VDD_THD
 <wire x1="25.4" y1="34.29" x2="25.4" y2="43.18" width="0.254" layer="112"/>
 <wire x1="25.4" y1="43.18" x2="14.605" y2="43.18" width="0.254" layer="112"/>
 <wire x1="14.605" y1="43.18" x2="14.605" y2="34.29" width="0.254" layer="112"/>
-<text x="15.24" y="41.275" size="1.016" layer="112">Clock Config</text>
 <text x="15.24" y="38.735" size="0.8128" layer="112">00 = 8:1</text>
 <text x="15.24" y="37.465" size="0.8128" layer="112">01 = 32:1</text>
 <text x="15.24" y="36.195" size="0.8128" layer="112">10 = 16:1</text>
@@ -250,6 +249,7 @@ VDD_THD
 <hole x="33.02" y="-2.54" drill="3.175"/>
 <hole x="41.91" y="-2.54" drill="3.175"/>
 <rectangle x1="22.86" y1="60.96" x2="43.18" y2="63.5" layer="16"/>
+<text x="15.24" y="41.275" size="0.9652" layer="112">Clock Config 1-0</text>
 </plain>
 <libraries>
 <library name="Strutz Electronic Industries">
@@ -934,13 +934,15 @@ design rules under a new name.</description>
 <element name="C6" library="1x05smd" package="0603-CAP" value=".1uF" x="31.7" y="23.2" smashed="yes" rot="MR270">
 <attribute name="VALUE" x="32.843" y="24.216" size="0.4064" layer="28" font="vector" rot="MR270"/>
 </element>
-<element name="C7" library="SparkFun-Capacitors" package="EIA3528" value="47uF" x="22.225" y="51.435" rot="MR135">
+<element name="C7" library="SparkFun-Capacitors" package="EIA3528" value="47uF" x="22.225" y="51.435" smashed="yes" rot="MR135">
 <attribute name="PROD_ID" value="CAP-08310" x="22.225" y="51.435" size="0.762" layer="28" rot="MR135" display="off"/>
 <attribute name="VALUE" value="47uF" x="22.225" y="51.435" size="0.762" layer="28" rot="MR135" display="off"/>
+<attribute name="VALUE" x="23.547290625" y="54.694759375" size="1.27" layer="28" rot="MR225"/>
 </element>
-<element name="C8" library="SparkFun-Capacitors" package="EIA3528" value="47uF" x="13.97" y="51.435" rot="MR45">
+<element name="C8" library="SparkFun-Capacitors" package="EIA3528" value="47uF" x="13.97" y="51.435" smashed="yes" rot="MR45">
 <attribute name="PROD_ID" value="CAP-08310" x="13.97" y="51.435" size="0.762" layer="28" rot="MR45" display="off"/>
 <attribute name="VALUE" value="47uF" x="13.97" y="51.435" size="0.762" layer="28" rot="MR45" display="off"/>
+<attribute name="VALUE" x="10.710240625" y="52.7572875" size="1.27" layer="28" rot="MR135"/>
 </element>
 </elements>
 <signals>

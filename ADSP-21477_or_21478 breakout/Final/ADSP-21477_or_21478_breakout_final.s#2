@@ -2389,68 +2389,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Capacitors">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find resistors, capacitors, inductors, test points, jumper pads, etc.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="EIA3528">
-<wire x1="-0.9" y1="-1.6" x2="-2.6" y2="-1.6" width="0.2032" layer="21"/>
-<wire x1="-2.6" y1="-1.6" x2="-2.6" y2="1.55" width="0.2032" layer="21"/>
-<wire x1="-2.6" y1="1.55" x2="-0.9" y2="1.55" width="0.2032" layer="21"/>
-<wire x1="1" y1="-1.55" x2="2.2" y2="-1.55" width="0.2032" layer="21"/>
-<wire x1="2.2" y1="-1.55" x2="2.6" y2="-1.2" width="0.2032" layer="21"/>
-<wire x1="2.6" y1="-1.2" x2="2.6" y2="1.25" width="0.2032" layer="21"/>
-<wire x1="2.6" y1="1.25" x2="2.2" y2="1.55" width="0.2032" layer="21"/>
-<wire x1="2.2" y1="1.55" x2="1" y2="1.55" width="0.2032" layer="21"/>
-<wire x1="2.2" y1="1.55" x2="1" y2="1.55" width="0.2032" layer="21"/>
-<wire x1="0.609" y1="1.311" x2="0.609" y2="-1.286" width="0.2032" layer="21" style="longdash"/>
-<smd name="C" x="-1.65" y="0" dx="2.5" dy="1.2" layer="1" rot="R90"/>
-<smd name="A" x="1.65" y="0" dx="2.5" dy="1.2" layer="1" rot="R90"/>
-<text x="-2.27" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="3.24" y="-1.37" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="CAP_POL">
-<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.016" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="-1" x2="2.4892" y2="-1.8542" width="0.254" layer="94" curve="-37.878202" cap="flat"/>
-<wire x1="-2.4669" y1="-1.8504" x2="0" y2="-1.0161" width="0.254" layer="94" curve="-37.376341" cap="flat"/>
-<text x="1.016" y="0.635" size="1.778" layer="95">&gt;NAME</text>
-<text x="1.016" y="-4.191" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-2.253" y1="0.668" x2="-1.364" y2="0.795" layer="94"/>
-<rectangle x1="-1.872" y1="0.287" x2="-1.745" y2="1.176" layer="94"/>
-<pin name="+" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="47UF-TANT" prefix="C" uservalue="yes">
-<description>47uF Tantalum SMT&lt;br&gt;
-CAP-08310- 10V 10% (EIA-3528)</description>
-<gates>
-<gate name="G$1" symbol="CAP_POL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="EIA3528">
-<connects>
-<connect gate="G$1" pin="+" pad="A"/>
-<connect gate="G$1" pin="-" pad="C"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-08310"/>
-<attribute name="VALUE" value="47uF" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2481,13 +2419,10 @@ CAP-08310- 10V 10% (EIA-3528)</description>
 <part name="C4" library="1x05smd" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="C5" library="1x05smd" deviceset="CAP" device="0603-CAP" value="10uF"/>
 <part name="C6" library="1x05smd" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="C7" library="SparkFun-Capacitors" deviceset="47UF-TANT" device="" value="47uF"/>
-<part name="C8" library="SparkFun-Capacitors" deviceset="47UF-TANT" device="" value="47uF"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="45.72" y="218.44" size="6.4516" layer="97">CLEAN THIS UP!</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="88.9" y="114.3"/>
@@ -2510,8 +2445,6 @@ CAP-08310- 10V 10% (EIA-3528)</description>
 <instance part="C4" gate="G$1" x="90.17" y="198.12"/>
 <instance part="C5" gate="G$1" x="135.89" y="199.39"/>
 <instance part="C6" gate="G$1" x="143.51" y="199.39"/>
-<instance part="C7" gate="G$1" x="200.66" y="124.46"/>
-<instance part="C8" gate="G$1" x="218.44" y="124.46"/>
 </instances>
 <busses>
 </busses>
@@ -2560,11 +2493,6 @@ CAP-08310- 10V 10% (EIA-3528)</description>
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="195.58" x2="90.17" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="64.77" y1="195.58" x2="55.88" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="90.17" y1="195.58" x2="109.22" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="195.58" x2="109.22" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="+"/>
-<wire x1="109.22" y1="175.26" x2="152.4" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="175.26" x2="200.66" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VDD_INT" class="0">
@@ -2588,11 +2516,6 @@ CAP-08310- 10V 10% (EIA-3528)</description>
 <pinref part="C5" gate="G$1" pin="2"/>
 <wire x1="143.51" y1="196.85" x2="135.89" y2="196.85" width="0.1524" layer="91"/>
 <wire x1="135.89" y1="196.85" x2="121.92" y2="196.85" width="0.1524" layer="91"/>
-<wire x1="143.51" y1="196.85" x2="179.07" y2="196.85" width="0.1524" layer="91"/>
-<wire x1="179.07" y1="196.85" x2="193.04" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="+"/>
-<wire x1="193.04" y1="182.88" x2="193.04" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="152.4" x2="218.44" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -2604,9 +2527,8 @@ CAP-08310- 10V 10% (EIA-3528)</description>
 <wire x1="86.36" y1="45.72" x2="88.9" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="GND"/>
 <wire x1="88.9" y1="43.18" x2="91.44" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="45.72" x2="91.44" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="45.72" x2="91.44" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="BOOT_1" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="50.8" x2="91.44" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="-29.21" y1="68.58" x2="-29.21" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="-29.21" y1="60.96" x2="-22.86" y2="54.61" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="54.61" x2="-7.62" y2="39.37" width="0.1524" layer="91"/>
@@ -2646,16 +2568,6 @@ CAP-08310- 10V 10% (EIA-3528)</description>
 <wire x1="-10.16" y1="213.36" x2="-40.64" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="-40.64" y1="182.88" x2="-40.64" y2="72.39" width="0.1524" layer="91"/>
 <wire x1="-40.64" y1="72.39" x2="-36.83" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="-"/>
-<wire x1="200.66" y1="119.38" x2="200.66" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="104.14" x2="213.36" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="-"/>
-<wire x1="218.44" y1="119.38" x2="218.44" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="96.52" x2="213.36" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="91.44" x2="213.36" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="50.8" x2="196.85" y2="34.29" width="0.1524" layer="91"/>
-<wire x1="196.85" y1="34.29" x2="107.95" y2="34.29" width="0.1524" layer="91"/>
-<wire x1="107.95" y1="34.29" x2="91.44" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TMS" class="0">

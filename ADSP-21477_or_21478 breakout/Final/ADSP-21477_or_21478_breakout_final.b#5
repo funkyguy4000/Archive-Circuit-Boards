@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.0125" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -36,25 +36,25 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -80,24 +80,24 @@
 <layer number="105" name="tPlate" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="106" name="bPlate" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="107" name="Crop" color="5" fill="1" visible="yes" active="yes"/>
-<layer number="108" name="fp8" color="7" fill="1" visible="no" active="yes"/>
-<layer number="109" name="fp9" color="7" fill="1" visible="no" active="yes"/>
-<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
+<layer number="108" name="fp8" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="fp9" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
-<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
-<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
@@ -151,93 +151,93 @@
 <wire x1="55.9" y1="-5.18" x2="55.9" y2="68.68" width="0.254" layer="20"/>
 <wire x1="55.9" y1="68.68" x2="1.2" y2="68.68" width="0.254" layer="20"/>
 <wire x1="1.2" y1="68.68" x2="1.2" y2="-5.18" width="0.254" layer="20"/>
-<text x="4.445" y="61.595" size="1.016" layer="112">DPI_P03</text>
-<text x="4.445" y="59.055" size="1.016" layer="112">DPI_P05</text>
-<text x="4.445" y="56.515" size="1.016" layer="112">DPI_P04</text>
-<text x="4.445" y="53.975" size="1.016" layer="112">DPI_P06</text>
-<text x="4.445" y="51.435" size="1.016" layer="112">DPI_P08</text>
-<text x="4.445" y="48.895" size="1.016" layer="112">DPI_P07</text>
-<text x="4.445" y="46.355" size="1.016" layer="112">DPI_P09</text>
-<text x="4.445" y="43.815" size="1.016" layer="112">DPI_P10</text>
-<text x="4.445" y="41.275" size="1.016" layer="112">DPI_P11</text>
-<text x="4.445" y="38.735" size="1.016" layer="112">DPI_P12</text>
-<text x="4.445" y="36.195" size="1.016" layer="112">DPI_P13</text>
-<text x="4.445" y="33.655" size="1.016" layer="112">DPI_P14</text>
-<text x="4.445" y="31.115" size="1.016" layer="112">DAI_P03</text>
-<text x="4.445" y="28.575" size="1.016" layer="112">DAI_P13</text>
-<text x="4.445" y="26.035" size="1.016" layer="112">DAI_P07</text>
-<text x="4.445" y="23.495" size="1.016" layer="112">DAI_P19</text>
-<text x="4.445" y="20.955" size="1.016" layer="112">DAI_P01</text>
-<text x="4.445" y="18.415" size="1.016" layer="112">DAI_P02</text>
-<text x="4.445" y="15.875" size="1.016" layer="112">DAI_P06</text>
-<text x="4.445" y="13.335" size="1.016" layer="112">DAI_P05</text>
-<text x="4.445" y="10.795" size="1.016" layer="112">DAI_P09</text>
-<text x="4.445" y="8.255" size="1.016" layer="112">DAI_P10</text>
-<text x="4.445" y="5.715" size="1.016" layer="112">DAI_P20</text>
-<text x="4.445" y="3.175" size="1.016" layer="112">DAI_P08</text>
-<text x="4.445" y="0.635" size="1.016" layer="112">DAI_P04</text>
-<text x="52.705" y="62.865" size="1.016" layer="112" rot="R180">DPI_P02</text>
-<text x="52.705" y="60.325" size="1.016" layer="112" rot="R180">DPI_P01</text>
-<text x="52.705" y="58.42" size="0.8128" layer="112" rot="R180">~RESETOUT
+<text x="4.445" y="61.595" size="1.016" layer="121">DPI_P03</text>
+<text x="4.445" y="59.055" size="1.016" layer="121">DPI_P05</text>
+<text x="4.445" y="56.515" size="1.016" layer="121">DPI_P04</text>
+<text x="4.445" y="53.975" size="1.016" layer="121">DPI_P06</text>
+<text x="4.445" y="51.435" size="1.016" layer="121">DPI_P08</text>
+<text x="4.445" y="48.895" size="1.016" layer="121">DPI_P07</text>
+<text x="4.445" y="46.355" size="1.016" layer="121">DPI_P09</text>
+<text x="4.445" y="43.815" size="1.016" layer="121">DPI_P10</text>
+<text x="4.445" y="41.275" size="1.016" layer="121">DPI_P11</text>
+<text x="4.445" y="38.735" size="1.016" layer="121">DPI_P12</text>
+<text x="4.445" y="36.195" size="1.016" layer="121">DPI_P13</text>
+<text x="4.445" y="33.655" size="1.016" layer="121">DPI_P14</text>
+<text x="4.445" y="31.115" size="1.016" layer="121">DAI_P03</text>
+<text x="4.445" y="28.575" size="1.016" layer="121">DAI_P13</text>
+<text x="4.445" y="26.035" size="1.016" layer="121">DAI_P07</text>
+<text x="4.445" y="23.495" size="1.016" layer="121">DAI_P19</text>
+<text x="4.445" y="20.955" size="1.016" layer="121">DAI_P01</text>
+<text x="4.445" y="18.415" size="1.016" layer="121">DAI_P02</text>
+<text x="4.445" y="15.875" size="1.016" layer="121">DAI_P06</text>
+<text x="4.445" y="13.335" size="1.016" layer="121">DAI_P05</text>
+<text x="4.445" y="10.795" size="1.016" layer="121">DAI_P09</text>
+<text x="4.445" y="8.255" size="1.016" layer="121">DAI_P10</text>
+<text x="4.445" y="5.715" size="1.016" layer="121">DAI_P20</text>
+<text x="4.445" y="3.175" size="1.016" layer="121">DAI_P08</text>
+<text x="4.445" y="0.635" size="1.016" layer="121">DAI_P04</text>
+<text x="52.705" y="62.865" size="1.016" layer="121" rot="R180">DPI_P02</text>
+<text x="52.705" y="60.325" size="1.016" layer="121" rot="R180">DPI_P01</text>
+<text x="52.705" y="58.42" size="0.8128" layer="121" rot="R180">~RESETOUT
 ~RUNRSTIN</text>
-<text x="52.705" y="55.245" size="1.016" layer="112" rot="R180">XTAL</text>
-<text x="52.705" y="52.705" size="1.016" layer="112" rot="R180">CLKIN</text>
-<text x="52.705" y="50.165" size="1.016" layer="112" rot="R180">TMS</text>
-<text x="52.705" y="47.625" size="1.016" layer="112" rot="R180">~RESET</text>
-<text x="52.705" y="45.085" size="1.016" layer="112" rot="R180">TCK</text>
-<text x="52.705" y="42.545" size="1.016" layer="112" rot="R180">TDI</text>
-<text x="52.705" y="40.005" size="1.016" layer="112" rot="R180">TDO</text>
-<text x="52.705" y="37.465" size="1.016" layer="112" rot="R180">~EMU</text>
-<text x="52.705" y="34.925" size="1.016" layer="112" rot="R180">~TRST</text>
-<text x="52.705" y="32.385" size="1.016" layer="112" rot="R180">FLAG3</text>
-<text x="52.705" y="29.845" size="1.016" layer="112" rot="R180">FLAG2</text>
-<text x="52.705" y="27.305" size="1.016" layer="112" rot="R180">FLAG1</text>
-<text x="52.705" y="24.765" size="1.016" layer="112" rot="R180">FLAG0</text>
-<text x="52.705" y="22.225" size="1.016" layer="112" rot="R180">THD_P</text>
-<text x="52.705" y="19.685" size="1.016" layer="112" rot="R180">THD_M</text>
-<text x="52.705" y="17.145" size="1.016" layer="112" rot="R180">DAI_P11</text>
-<text x="52.705" y="14.605" size="1.016" layer="112" rot="R180">DAI_P12</text>
-<text x="52.705" y="12.065" size="1.016" layer="112" rot="R180">DAI_P15</text>
-<text x="52.705" y="9.525" size="1.016" layer="112" rot="R180">DAI_P16</text>
-<text x="52.705" y="6.985" size="1.016" layer="112" rot="R180">DAI_P17</text>
-<text x="52.705" y="4.445" size="1.016" layer="112" rot="R180">DAI_P18</text>
-<text x="52.705" y="1.905" size="1.016" layer="112" rot="R180">DAI_P14</text>
-<text x="26.035" y="10.16" size="1.4224" layer="112">GND</text>
-<text x="13.335" y="47.625" size="1.4224" layer="112">VDD_INT
+<text x="52.705" y="55.245" size="1.016" layer="121" rot="R180">XTAL</text>
+<text x="52.705" y="52.705" size="1.016" layer="121" rot="R180">CLKIN</text>
+<text x="52.705" y="50.165" size="1.016" layer="121" rot="R180">TMS</text>
+<text x="52.705" y="47.625" size="1.016" layer="121" rot="R180">~RESET</text>
+<text x="52.705" y="45.085" size="1.016" layer="121" rot="R180">TCK</text>
+<text x="52.705" y="42.545" size="1.016" layer="121" rot="R180">TDI</text>
+<text x="52.705" y="40.005" size="1.016" layer="121" rot="R180">TDO</text>
+<text x="52.705" y="37.465" size="1.016" layer="121" rot="R180">~EMU</text>
+<text x="52.705" y="34.925" size="1.016" layer="121" rot="R180">~TRST</text>
+<text x="52.705" y="32.385" size="1.016" layer="121" rot="R180">FLAG3</text>
+<text x="52.705" y="29.845" size="1.016" layer="121" rot="R180">FLAG2</text>
+<text x="52.705" y="27.305" size="1.016" layer="121" rot="R180">FLAG1</text>
+<text x="52.705" y="24.765" size="1.016" layer="121" rot="R180">FLAG0</text>
+<text x="52.705" y="22.225" size="1.016" layer="121" rot="R180">THD_P</text>
+<text x="52.705" y="19.685" size="1.016" layer="121" rot="R180">THD_M</text>
+<text x="52.705" y="17.145" size="1.016" layer="121" rot="R180">DAI_P11</text>
+<text x="52.705" y="14.605" size="1.016" layer="121" rot="R180">DAI_P12</text>
+<text x="52.705" y="12.065" size="1.016" layer="121" rot="R180">DAI_P15</text>
+<text x="52.705" y="9.525" size="1.016" layer="121" rot="R180">DAI_P16</text>
+<text x="52.705" y="6.985" size="1.016" layer="121" rot="R180">DAI_P17</text>
+<text x="52.705" y="4.445" size="1.016" layer="121" rot="R180">DAI_P18</text>
+<text x="52.705" y="1.905" size="1.016" layer="121" rot="R180">DAI_P14</text>
+<text x="26.035" y="10.16" size="1.4224" layer="121">GND</text>
+<text x="13.335" y="47.625" size="1.4224" layer="121">VDD_INT
 1.2V-1.3V</text>
-<text x="27.94" y="53.975" size="1.4224" layer="112">VDD_EXT
+<text x="27.94" y="53.975" size="1.4224" layer="121">VDD_EXT
 VDD_THD
 3.3V</text>
 <hole x="6.35" y="-2.54" drill="3.175"/>
 <hole x="50.8" y="-2.54" drill="3.175"/>
 <hole x="6.35" y="66.04" drill="3.175"/>
-<text x="17.145" y="-2.54" size="1.4224" layer="112">ADSP-21477/8 Breakout
+<text x="17.145" y="-2.54" size="1.4224" layer="121">ADSP-21477/8 Breakout
 </text>
-<wire x1="46.355" y1="43.18" x2="35.56" y2="43.18" width="0.254" layer="112"/>
-<wire x1="35.56" y1="43.18" x2="35.56" y2="34.29" width="0.254" layer="112"/>
-<wire x1="35.56" y1="34.29" x2="46.355" y2="34.29" width="0.254" layer="112"/>
-<wire x1="46.355" y1="34.29" x2="46.355" y2="43.18" width="0.254" layer="112"/>
-<text x="36.195" y="38.735" size="0.8128" layer="112">00 SPI Slave</text>
-<text x="36.195" y="37.465" size="0.8128" layer="112">01 SPI Master</text>
-<text x="36.195" y="36.195" size="0.8128" layer="112">10 AMI User</text>
-<text x="36.195" y="34.925" size="0.8128" layer="112">11 No Boot</text>
-<text x="36.195" y="41.275" size="1.016" layer="112">Boot Config 1-0</text>
-<wire x1="14.605" y1="34.29" x2="25.4" y2="34.29" width="0.254" layer="112"/>
-<wire x1="25.4" y1="34.29" x2="25.4" y2="43.18" width="0.254" layer="112"/>
-<wire x1="25.4" y1="43.18" x2="14.605" y2="43.18" width="0.254" layer="112"/>
-<wire x1="14.605" y1="43.18" x2="14.605" y2="34.29" width="0.254" layer="112"/>
-<text x="15.24" y="38.735" size="0.8128" layer="112">00 = 8:1</text>
-<text x="15.24" y="37.465" size="0.8128" layer="112">01 = 32:1</text>
-<text x="15.24" y="36.195" size="0.8128" layer="112">10 = 16:1</text>
-<text x="15.24" y="34.925" size="0.8128" layer="112">11 = Reserved</text>
-<text x="31.115" y="48.895" size="0.8128" layer="112" rot="R90">3.3v</text>
-<text x="34.925" y="48.895" size="0.8128" layer="112" rot="R90">3.3v</text>
-<text x="38.735" y="48.895" size="0.8128" layer="112" rot="R90">3.3v</text>
-<text x="42.545" y="48.895" size="0.8128" layer="112" rot="R90">3.3v</text>
-<text x="33.02" y="48.895" size="0.762" layer="112" rot="R90">GND</text>
-<text x="36.83" y="48.895" size="0.762" layer="112" rot="R90">GND</text>
-<text x="40.64" y="48.895" size="0.762" layer="112" rot="R90">GND</text>
-<text x="44.45" y="48.895" size="0.762" layer="112" rot="R90">GND</text>
+<wire x1="46.355" y1="43.18" x2="35.56" y2="43.18" width="0.254" layer="121"/>
+<wire x1="35.56" y1="43.18" x2="35.56" y2="34.29" width="0.254" layer="121"/>
+<wire x1="35.56" y1="34.29" x2="46.355" y2="34.29" width="0.254" layer="121"/>
+<wire x1="46.355" y1="34.29" x2="46.355" y2="43.18" width="0.254" layer="121"/>
+<text x="36.195" y="38.735" size="0.8128" layer="121">00 SPI Slave</text>
+<text x="36.195" y="37.465" size="0.8128" layer="121">01 SPI Master</text>
+<text x="36.195" y="36.195" size="0.8128" layer="121">10 AMI User</text>
+<text x="36.195" y="34.925" size="0.8128" layer="121">11 No Boot</text>
+<text x="36.195" y="41.275" size="1.016" layer="121">Boot Config 1-0</text>
+<wire x1="14.605" y1="34.29" x2="25.4" y2="34.29" width="0.254" layer="121"/>
+<wire x1="25.4" y1="34.29" x2="25.4" y2="43.18" width="0.254" layer="121"/>
+<wire x1="25.4" y1="43.18" x2="14.605" y2="43.18" width="0.254" layer="121"/>
+<wire x1="14.605" y1="43.18" x2="14.605" y2="34.29" width="0.254" layer="121"/>
+<text x="15.24" y="38.735" size="0.8128" layer="121">00 = 8:1</text>
+<text x="15.24" y="37.465" size="0.8128" layer="121">01 = 32:1</text>
+<text x="15.24" y="36.195" size="0.8128" layer="121">10 = 16:1</text>
+<text x="15.24" y="34.925" size="0.8128" layer="121">11 = Reserved</text>
+<text x="31.115" y="48.895" size="0.8128" layer="121" rot="R90">3.3v</text>
+<text x="34.925" y="48.895" size="0.8128" layer="121" rot="R90">3.3v</text>
+<text x="38.735" y="48.895" size="0.8128" layer="121" rot="R90">3.3v</text>
+<text x="42.545" y="48.895" size="0.8128" layer="121" rot="R90">3.3v</text>
+<text x="33.02" y="48.895" size="0.762" layer="121" rot="R90">GND</text>
+<text x="36.83" y="48.895" size="0.762" layer="121" rot="R90">GND</text>
+<text x="40.64" y="48.895" size="0.762" layer="121" rot="R90">GND</text>
+<text x="44.45" y="48.895" size="0.762" layer="121" rot="R90">GND</text>
 <hole x="15.24" y="66.04" drill="3.175"/>
 <hole x="24.13" y="66.04" drill="3.175"/>
 <hole x="33.02" y="66.04" drill="3.175"/>
@@ -248,8 +248,8 @@ VDD_THD
 <hole x="33.02" y="-2.54" drill="3.175"/>
 <hole x="41.91" y="-2.54" drill="3.175"/>
 <rectangle x1="22.86" y1="60.96" x2="43.18" y2="63.5" layer="16"/>
-<text x="15.24" y="41.275" size="0.9652" layer="112">Clock Config 1-0</text>
-<text x="16.51" y="1.27" size="1.778" layer="112">SHANNON STRUTZ</text>
+<text x="15.24" y="41.275" size="0.9652" layer="121">Clock Config 1-0</text>
+<text x="16.51" y="1.27" size="1.778" layer="121">SHANNON STRUTZ</text>
 </plain>
 <libraries>
 <library name="Strutz Electronic Industries">
