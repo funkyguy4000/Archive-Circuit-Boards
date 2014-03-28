@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -141,14 +141,29 @@
 <wire x1="29" y1="17" x2="0" y2="17" width="0.4064" layer="20"/>
 <wire x1="0" y1="17" x2="0" y2="0" width="0.4064" layer="20"/>
 <wire x1="0" y1="0" x2="29" y2="0" width="0.4064" layer="20"/>
-<text x="11.1" y="8.1" size="0.8128" layer="122" rot="R180" align="center">CS5343 24-bit
+<text x="10.9" y="8.5" size="0.8128" layer="122" rot="MR180" align="center">CS5343 24-bit
 I2S ADC
-EVM
+Eval
 Shannon
 Strutz</text>
 <text x="14" y="20" size="0.8128" layer="121" align="center">Designed by Shannon Strutz
 License CC BY-NC-SA 3.0
 2013</text>
+<text x="1.7" y="12.5" size="0.4064" layer="122" rot="MR90">LEFT</text>
+<text x="3.5" y="7.7" size="0.4064" layer="122" rot="MR90">RIGHT</text>
+<text x="1.9" y="2.3" size="0.4064" layer="122" rot="MR90">SLEEVE</text>
+<text x="25.7" y="14.7" size="0.4064" layer="122" rot="MR0">GND</text>
+<text x="25.8" y="12.1" size="0.4064" layer="122" rot="MR0">MCLK</text>
+<text x="25.8" y="9.5" size="0.4064" layer="122" rot="MR0">LR</text>
+<text x="25.8" y="4.5" size="0.4064" layer="122" rot="MR0">SOUT</text>
+<text x="25.8" y="6" size="0.4064" layer="122" rot="MR0">SCLK</text>
+<wire x1="25.3" y1="6.6" x2="25.3" y2="7.1" width="0.1" layer="122"/>
+<wire x1="25.3" y1="7.1" x2="25.5" y2="7.3" width="0.1" layer="122"/>
+<wire x1="25.5" y1="7.3" x2="25.8" y2="7.3" width="0.1" layer="122"/>
+<wire x1="25.8" y1="7.3" x2="25.6" y2="7.5" width="0.1" layer="122"/>
+<wire x1="25.6" y1="7.5" x2="25.6" y2="7.1" width="0.1" layer="122"/>
+<wire x1="25.6" y1="7.1" x2="25.8" y2="7.3" width="0.1" layer="122"/>
+<text x="25.8" y="2" size="0.4064" layer="122" rot="MR0">VCC</text>
 </plain>
 <libraries>
 <library name="Strutz Electronic Industries">
@@ -543,25 +558,61 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="FB4" library="SparkFun-Passives" package="0805" value="220" x="5.5" y="10" rot="R180"/>
-<element name="FB5" library="SparkFun-Passives" package="0805" value="220" x="5.5" y="7.5" rot="R180"/>
-<element name="FB6" library="SparkFun-Passives" package="0805" value="220" x="6.7836" y="8.7366" rot="MR270"/>
-<element name="C4" library="1x05smd" package="0402-CAP" value="1000pF" x="4.7836" y="8.8366" rot="MR90"/>
-<element name="C5" library="1x05smd" package="0402-CAP" value="1000pF" x="5.5" y="5.5"/>
-<element name="C6" library="1x05smd" package="0402-CAP" value="1000pF" x="5.5" y="12"/>
-<element name="U$3" library="Strutz Electronic Industries" package="TSSOP-10" value="CS5343" x="21.9366" y="8.5336" rot="R180"/>
-<element name="R2" library="1x05smd" package="0603-RES" value="6.81k" x="9" y="10" rot="R180"/>
-<element name="R3" library="1x05smd" package="0603-RES" value="6.81k" x="9" y="7.5" rot="R180"/>
-<element name="R4" library="1x05smd" package="0603-RES" value="3.32k" x="12.5" y="7.5" rot="R180"/>
-<element name="R5" library="1x05smd" package="0603-RES" value="3.32k" x="12.5" y="10" rot="R180"/>
-<element name="C7" library="1x05smd" package="0402-CAP" value="1uF" x="10.5" y="5.5" rot="R180"/>
-<element name="C8" library="1x05smd" package="0402-CAP" value="1uF" x="10.5366" y="12.0164" rot="R180"/>
-<element name="D3" library="diode" package="SOT23" value="BAT54S" x="16.5" y="6.5" rot="R180"/>
-<element name="D4" library="diode" package="SOT23" value="BAT54S" x="16.5" y="11"/>
-<element name="C13" library="1x05smd" package="0402-CAP" value=".1uF" x="21" y="9.5" rot="MR0"/>
-<element name="C14" library="1x05smd" package="0402-CAP" value=".1uF" x="24" y="7.5" rot="MR0"/>
-<element name="C15" library="1x05smd" package="0402-CAP" value="1uF" x="21" y="7.5" rot="MR0"/>
-<element name="C19" library="1x05smd" package="0402-CAP" value="1uF" x="24" y="9.5" rot="MR0"/>
+<element name="FB4" library="SparkFun-Passives" package="0805" value="220" x="5.5" y="10" smashed="yes" rot="R180">
+<attribute name="NAME" x="6.262" y="9.1745" size="0.4064" layer="25" rot="R180"/>
+</element>
+<element name="FB5" library="SparkFun-Passives" package="0805" value="220" x="5.5" y="7.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="6.262" y="6.6745" size="0.4064" layer="25" rot="R180"/>
+</element>
+<element name="FB6" library="SparkFun-Passives" package="0805" value="220" x="6.7836" y="8.7366" smashed="yes" rot="MR270">
+<attribute name="NAME" x="5.9581" y="9.4986" size="0.4064" layer="26" rot="MR270"/>
+</element>
+<element name="C4" library="1x05smd" package="0402-CAP" value="1000pF" x="4.7836" y="8.8366" smashed="yes" rot="MR90">
+<attribute name="NAME" x="5.4821" y="7.9476" size="0.4064" layer="26" rot="MR90"/>
+</element>
+<element name="C5" library="1x05smd" package="0402-CAP" value="1000pF" x="5.5" y="5.5" smashed="yes">
+<attribute name="NAME" x="4.611" y="4.4985" size="0.4064" layer="25"/>
+</element>
+<element name="C6" library="1x05smd" package="0402-CAP" value="1000pF" x="5.5" y="12" smashed="yes">
+<attribute name="NAME" x="4.611" y="12.6985" size="0.4064" layer="25"/>
+</element>
+<element name="U$3" library="Strutz Electronic Industries" package="TSSOP-10" value="CS5343" x="21.9366" y="8.5336" smashed="yes" rot="R180"/>
+<element name="R2" library="1x05smd" package="0603-RES" value="6.81k" x="9" y="10" smashed="yes" rot="R180">
+<attribute name="NAME" x="9.889" y="9.238" size="0.4064" layer="25" font="vector" rot="R180"/>
+</element>
+<element name="R3" library="1x05smd" package="0603-RES" value="6.81k" x="9" y="7.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="9.889" y="6.738" size="0.4064" layer="25" font="vector" rot="R180"/>
+</element>
+<element name="R4" library="1x05smd" package="0603-RES" value="3.32k" x="12.5" y="7.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="13.389" y="6.738" size="0.4064" layer="25" font="vector" rot="R180"/>
+</element>
+<element name="R5" library="1x05smd" package="0603-RES" value="3.32k" x="12.5" y="10" smashed="yes" rot="R180">
+<attribute name="NAME" x="13.389" y="9.238" size="0.4064" layer="25" font="vector" rot="R180"/>
+</element>
+<element name="C7" library="1x05smd" package="0402-CAP" value="1uF" x="10.5" y="5.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="11.389" y="4.8015" size="0.4064" layer="25" rot="R180"/>
+</element>
+<element name="C8" library="1x05smd" package="0402-CAP" value="1uF" x="10.5366" y="12.0164" smashed="yes" rot="R180">
+<attribute name="NAME" x="11.3256" y="13.1179" size="0.4064" layer="25" rot="R180"/>
+</element>
+<element name="D3" library="diode" package="SOT23" value="BAT54S" x="16.5" y="6.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="17.905" y="5.095" size="0.4064" layer="25" rot="R180"/>
+</element>
+<element name="D4" library="diode" package="SOT23" value="BAT54S" x="16.5" y="11" smashed="yes">
+<attribute name="NAME" x="14.995" y="12.405" size="0.4064" layer="25"/>
+</element>
+<element name="C13" library="1x05smd" package="0402-CAP" value=".1uF" x="21" y="9.5" smashed="yes" rot="MR0">
+<attribute name="NAME" x="21.889" y="10.1985" size="0.4064" layer="26" rot="MR0"/>
+</element>
+<element name="C14" library="1x05smd" package="0402-CAP" value=".1uF" x="24" y="7.5" smashed="yes" rot="MR0">
+<attribute name="NAME" x="24.889" y="8.1985" size="0.4064" layer="26" rot="MR0"/>
+</element>
+<element name="C15" library="1x05smd" package="0402-CAP" value="1uF" x="21" y="7.5" smashed="yes" rot="MR0">
+<attribute name="NAME" x="21.889" y="8.1985" size="0.4064" layer="26" rot="MR0"/>
+</element>
+<element name="C19" library="1x05smd" package="0402-CAP" value="1uF" x="24" y="9.5" smashed="yes" rot="MR0">
+<attribute name="NAME" x="24.889" y="10.1985" size="0.4064" layer="26" rot="MR0"/>
+</element>
 <element name="JP1" library="adafruit" package="1X06" value="" x="27.2616" y="8.5086" smashed="yes" rot="R270">
 <attribute name="VALUE" x="24.0866" y="16.1286" size="1.27" layer="27" rot="R270"/>
 </element>
@@ -627,6 +678,12 @@ design rules under a new name.</description>
 <wire x1="6.15" y1="12" x2="8" y2="12" width="0.254" layer="1"/>
 <via x="8" y="12" extent="1-16" drill="0.6"/>
 <wire x1="8" y1="12" x2="8" y2="5.5" width="0.254" layer="16"/>
+<polygon width="0.4064" layer="1">
+<vertex x="0" y="17"/>
+<vertex x="29" y="17"/>
+<vertex x="29" y="0"/>
+<vertex x="0" y="0"/>
+</polygon>
 </signal>
 <signal name="VCC">
 <contactref element="U$3" pad="10"/>
@@ -756,7 +813,7 @@ design rules under a new name.</description>
 <wire x1="24.6" y1="11" x2="24.6" y2="9.55" width="0.254" layer="16"/>
 <wire x1="24.6" y1="9.55" x2="24.65" y2="9.5" width="0.254" layer="16"/>
 </signal>
-<signal name="N$5">
+<signal name="MCLK">
 <contactref element="JP1" pad="2"/>
 <contactref element="U$3" pad="4"/>
 <wire x1="24.0866" y1="9.0336" x2="24.8336" y2="9.0336" width="0.254" layer="1"/>
@@ -766,19 +823,19 @@ design rules under a new name.</description>
 <wire x1="25.7" y1="10.1" x2="25.7" y2="10.757" width="0.254" layer="1"/>
 <wire x1="25.7" y1="10.757" x2="27.2616" y2="12.3186" width="0.254" layer="1"/>
 </signal>
-<signal name="N$7">
+<signal name="LRCLK">
 <contactref element="JP1" pad="3"/>
 <contactref element="U$3" pad="3"/>
 <wire x1="24.0866" y1="8.5336" x2="26.0166" y2="8.5336" width="0.254" layer="1"/>
 <wire x1="26.0166" y1="8.5336" x2="27.2616" y2="9.7786" width="0.254" layer="1"/>
 </signal>
-<signal name="N$8">
+<signal name="SCLK">
 <contactref element="JP1" pad="4"/>
 <contactref element="U$3" pad="2"/>
 <wire x1="24.0866" y1="8.0336" x2="26.4666" y2="8.0336" width="0.254" layer="1"/>
 <wire x1="26.4666" y1="8.0336" x2="27.2616" y2="7.2386" width="0.254" layer="1"/>
 </signal>
-<signal name="N$9">
+<signal name="SOUT">
 <contactref element="JP1" pad="5"/>
 <contactref element="U$3" pad="1"/>
 <wire x1="24.0866" y1="7.5336" x2="24.4266" y2="7.5336" width="0.254" layer="1"/>

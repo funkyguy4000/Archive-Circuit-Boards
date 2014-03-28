@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1808,7 +1808,7 @@ Source: Fairchild .. BAT54.pdf</description>
 <wire x1="499.11" y1="213.36" x2="502.92" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="MCLK" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="2"/>
 <wire x1="411.48" y1="175.26" x2="427.99" y2="175.26" width="0.1524" layer="91"/>
@@ -1817,7 +1817,7 @@ Source: Fairchild .. BAT54.pdf</description>
 <wire x1="427.99" y1="171.45" x2="431.8" y2="171.45" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="LRCLK" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="3"/>
 <pinref part="U$3" gate="G$1" pin="LRCLK"/>
@@ -1825,7 +1825,7 @@ Source: Fairchild .. BAT54.pdf</description>
 <wire x1="431.8" y1="177.8" x2="431.8" y2="176.53" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="SCLK" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="4"/>
 <pinref part="U$3" gate="G$1" pin="SRCLK"/>
@@ -1833,7 +1833,7 @@ Source: Fairchild .. BAT54.pdf</description>
 <wire x1="431.8" y1="180.34" x2="431.8" y2="181.61" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="SOUT" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="5"/>
 <wire x1="411.48" y1="182.88" x2="427.99" y2="182.88" width="0.1524" layer="91"/>
