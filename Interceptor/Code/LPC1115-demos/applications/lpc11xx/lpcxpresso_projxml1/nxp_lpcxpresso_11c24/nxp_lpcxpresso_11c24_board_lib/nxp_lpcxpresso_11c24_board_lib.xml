@@ -1,0 +1,178 @@
+<!-- ************************************************************
+	 Code Red IDE script file for use in creating a library
+	 project for a particular MCU range from the code provided
+	 in the NXP Sample Software Suite.
+
+	 This script is in a format suitable for use with the
+	 'Import Project(s) from XML Description' of the Code Red IDE.
+     *********************************************************** -->
+
+<project xmlns:xi="http://www.w3.org/2001/XInclude"
+	type="Static library" name="nxp_lpcxpresso_11c24_board_lib"
+	chip="LPC11C24/301" vendor="NXP">
+
+<script>
+
+    <!-- Copy required lpc175x_6x specific files into created project -->
+    <if test="11cxx==175x_6x">
+        <import src="../../../../../software/lpc_core/lpc_board/board_common" dest="inc">
+		    <include>lpc_phy.h</include>
+		    <include>mem_tests.h</include>
+	    </import>
+
+	    <import src="../../../../../software/lpc_core/lpc_board/board_common" dest="src">
+		    <include>lpc_phy_smsc87x0.c</include>
+		    <include>mem_tests.c</include>
+	    </import>
+    </if>
+    
+    <!-- Copy required lpc177x_8x specific files into created project -->
+    <if test="11cxx==177x_8x">
+        <import src="../../../../../software/lpc_core/lpc_board/board_common" dest="inc">
+		    <include>uda1380.h</include>
+		    <include>lpc_phy.h</include>
+		    <include>lpc_norflash.h</include>
+		    <include>lpc_nandflash.h</include>
+		    <include>lpc_nandflash_k9f1g.h</include>
+		    <include>mem_tests.h</include>
+	    </import>
+
+	    <import src="../../../../../software/lpc_core/lpc_board/board_common" dest="src">
+		    <include>uda1380.c</include>
+		    <include>lpc_phy_smsc87x0.c</include>
+		    <include>lpc_norflash_sst39vf320.c</include>
+		    <include>lpc_nandflash_k9f1g.c</include>
+		    <include>mem_tests.c</include>
+	    </import>
+        
+        <import src="../../../../../software/lpc_core/lpc_board/boards_11xx/nxp_lpcxpresso_11c24/nxp_lpcxpresso_11c24" dest="inc">
+            <include>*.h</include>
+        </import>
+    </if>
+    
+    <!-- Copy required lpc407x_8x specific files into created project -->
+    <if test="11cxx==407x_8x">
+        <import src="../../../../../software/lpc_core/lpc_board/board_common" dest="inc">
+		    <include>uda1380.h</include>
+		    <include>lpc_phy.h</include>
+		    <include>lpc_norflash.h</include>
+		    <include>lpc_nandflash.h</include>
+		    <include>lpc_nandflash_k9f1g.h</include>
+		    <include>mem_tests.h</include>
+	    </import>
+
+	    <import src="../../../../../software/lpc_core/lpc_board/board_common" dest="src">
+		    <include>uda1380.c</include>
+		    <include>lpc_phy_smsc87x0.c</include>
+		    <include>lpc_norflash_sst39vf320.c</include>
+		    <include>lpc_nandflash_k9f1g.c</include>
+		    <include>mem_tests.c</include>
+	    </import>
+        
+        <import src="../../../../../software/lpc_core/lpc_board/boards_11xx/nxp_lpcxpresso_11c24/nxp_lpcxpresso_11c24" dest="inc">
+            <include>*.h</include>
+        </import>
+    </if>
+    
+    <!-- Copy required lpc18xx_43xx specific files into created project -->
+    <if test="11xx==18xx_43xx">
+        <import src="../../../../../software/lpc_core/lpc_board/board_common" dest="inc">
+		    <include>uda1380.h</include>
+		    <include>lpc_phy.h</include>
+		    <include>mem_tests.h</include>
+	    </import>
+        
+	    <import src="../../../../../software/lpc_core/lpc_board/board_common" dest="src">
+		    <include>uda1380.c</include>
+		    <include>mem_tests.c</include>
+	    </import>
+
+        <if test="nxp_lpcxpresso==hitex_eva">
+            <import src="../../../../../software/lpc_core/lpc_board/board_common" dest="inc">
+                <include>lpc_phy_dp83848.c</include>
+            </import>
+        </if>
+        
+        <if test="nxp_lpcxpresso==keil_mcb">
+            <import src="../../../../../software/lpc_core/lpc_board/board_common" dest="src">
+                <include>lpc_phy_dp83848.c</include>
+            </import>
+        </if>
+        
+        <if test="nxp_lpcxpresso==ngx_xplorer">
+            <import src="../../../../../software/lpc_core/lpc_board/board_common" dest="src">
+                <include>lpc_phy_smsc87x0.c</include>
+            </import>
+        </if>
+        
+        <import src="../../../../../software/lpc_core/lpc_board/boards_11xx/nxp_lpcxpresso_11c24/nxp_lpcxpresso_11c24" dest="inc">
+            <include>*.h</include>
+        </import>
+    </if>
+    
+    <import src="../../../../../software/lpc_core/lpc_board/boards_11xx/nxp_lpcxpresso_11c24" dest="inc">
+        <include>*.h</include>
+    </import>
+
+    <import src="../../../../../software/lpc_core/lpc_board/boards_11xx/nxp_lpcxpresso_11c24" dest="src">
+        <include>*.c</include>
+    </import>
+
+	<import src="../../../../../software/lpc_core/lpc_board/board_common" dest="inc">
+		<include>board_api.h</include>
+		<include>retarget.h</include>
+	</import>
+
+    <import src="">
+        <include>liblinks.xml</include>
+        <grep pattern="WIZARD_PROJNAME" replace="nxp_lpcxpresso_812_board_lib"></grep>
+    </import>
+
+<settings>
+
+	<!-- Set a compiler define -->
+    <setting id="compiler.def">
+        <value>CORE_M0</value>
+    </setting>
+	    
+	<!-- Set a FP - Soft-ABI -->
+    <if test="M0==M4">
+        <setting id="assembler.fp">
+			<value>com.crt.advproject.gas.fpu.fpv4</value>
+		</setting>
+		<setting id="compiler.c.fp">
+			<value>com.crt.advproject.gcc.fpu.fpv4</value>
+		</setting>
+		<setting id="cpp.compiler.c.fp">
+			<value>com.crt.advproject.cpp.fpu.fpv4</value>
+		</setting>
+		<setting id="all.compiler.flags">
+			 <value>-fsingle-precision-constant</value>
+		</setting>
+		<setting id="linker.fp">
+		  <value>com.crt.advproject.link.fpu.fpv4</value>
+		</setting>
+    </if>
+
+	<!-- Change optimisation level for Release build to -Os (default = -O2) -->
+	<setting id="all.compiler.opt" buildType="Release">
+		<value>-Os</value>
+	</setting>
+	
+	<!-- Set up include paths for use within library project -->
+	<setting id="compiler.inc">
+		<value>${workspace_loc:/lpc_chip_11cxx_lib/inc}</value>
+		<value>${workspace_loc:/${ProjName}/inc}</value>
+	</setting>
+
+	<!-- Set up C library include paths to be Redlib (rather than Newlib) -->
+	<setting id="assembler.c.header">
+		<value>Redlib</value>
+	</setting>
+	<setting id="compiler.c.header">
+		<value>Redlib</value>
+	</setting>
+
+</settings>
+</script>
+</project>

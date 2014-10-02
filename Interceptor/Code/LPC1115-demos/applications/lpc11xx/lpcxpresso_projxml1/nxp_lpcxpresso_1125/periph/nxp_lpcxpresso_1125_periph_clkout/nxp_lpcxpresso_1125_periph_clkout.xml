@@ -1,0 +1,169 @@
+<!-- ************************************************************
+	 Code Red IDE script file for use in creating a library
+	 project for a particular MCU range from the code provided
+	 in the NXP Sample Software Suite.
+
+	 This script is in a format suitable for use with the
+	 'Import Project(s) from XML Description' of the Code Red IDE.
+     *********************************************************** -->
+
+<project xmlns:xi="http://www.w3.org/2001/XInclude"
+	type="Basic C project" name="nxp_lpcxpresso_1125_periph_clkout"
+	chip="LPC1125" vendor="NXP">
+<script>
+
+	<!-- Copy specified contents from inc subdirectory into created project -->
+    <import src="../../../../examples/periph/periph_clkout" dest="example/inc">
+	    <include>*.h</include>
+	</import>
+
+	<import src="../../../../examples/periph/periph_clkout" dest="example/src">
+	   <include>*.c</include>
+	</import>
+    
+    <if test="periph_clkout==periph_sdmmc">
+	    <import src="../../../../../../software/filesystems/fatfs/src" dest="fatfs/inc">
+		    <include>*.h</include>
+		    <include>ff.c</include>
+	    </import>
+	    
+        <import src="../../../../../../software/filesystems/fatfslpc" dest="fatfs/inc">
+		    <include>fs_mem.h</include>
+		    <include>rtc.h</include>
+	    </import>
+
+        <import src="../../../../../../software/filesystems/fatfslpc" dest="fatfs/src">
+		    <include>fs_mci.c</include>
+		    <include>rtc.c</include>
+	    </import>
+    </if>
+	
+	<import src="../../../../startup_code" dest="example/src">
+        <include>cr_startup_lpc11xx.c</include>
+        <include>sysinit.c</include>
+	</import>
+	
+    <if test="11xx==8xx">
+        <import src="../../../../startup_code" dest="example/src">
+            <include>crp.c</include>
+            <include>mtb.c</include>
+	    </import>
+    </if>
+
+<settings>
+
+	<!-- Set a compiler define -->
+	<setting id="compiler.def">
+		<value>__USE_LPCOPEN</value>
+		<value>CORE_M0</value>
+	</setting>
+    
+	<!-- MTB support, by default disabled. If enabled, default MTB buffer size 512 bytes -->
+    <if test="11xx==8xx">
+	    <setting id="compiler.def">
+		    <value>__MTB_DISABLE</value>
+		    <value>__MTB_BUFFER_SIZE=512</value>
+	    </setting>
+    </if>
+
+    <!-- Set a FP - Soft-ABI -->
+    <if test="CORE_M0==CORE_M4">
+        <setting id="assembler.fp">
+			<value>com.crt.advproject.gas.fpu.fpv4</value>
+		</setting>
+		<setting id="compiler.c.fp">
+			<value>com.crt.advproject.gcc.fpu.fpv4</value>
+		</setting>
+		<setting id="cpp.compiler.c.fp">
+			<value>com.crt.advproject.cpp.fpu.fpv4</value>
+		</setting>
+		<setting id="all.compiler.flags">
+			 <value>-fsingle-precision-constant</value>
+		</setting>
+		<setting id="linker.fp">
+		  <value>com.crt.advproject.link.fpu.fpv4</value>
+		</setting>
+    </if>
+    
+	<!-- Change optimisation level for Release build to -Os (default = -O2) -->
+	<setting id="all.compiler.opt" buildType="Release">
+		<value>-Os</value>
+	</setting>
+	
+
+	<setting id="all.compiler.opt" buildType="Debug" path="example/src/cr_startup_lpc11xx.c">
+		<value>-Os</value>
+	</setting>
+
+	<setting id="cpp.compiler.opt" buildType="Debug" path="example/src/cr_startup_lpc11xx.cpp">
+		<value>-Os</value>
+	</setting>
+
+	<!-- Set up include paths for use within project -->
+	<setting id="compiler.inc">
+		<value>${workspace_loc:/${ProjName}/example/inc}</value>
+	</setting>
+    
+    <if test="periph_clkout==periph_sdmmc">
+	    <setting id="compiler.inc">
+		    <value>${workspace_loc:/${ProjName}/fatfs/inc}</value>
+	    </setting>
+    </if>
+
+	<!-- Set up include paths to library project -->
+	<setting id="compiler.inc">
+		<value>${workspace_loc:/lpc_chip_1125_lib/inc}</value>
+		<value>${workspace_loc:/nxp_lpcxpresso_1125_board_lib/inc}</value>
+	</setting>
+	    
+	<!-- Set up C library include paths to be Redlib (rather than Newlib) -->
+	<setting id="assembler.c.header">
+		<value>Redlib</value>
+	</setting>
+	<setting id="compiler.c.header">
+		<value>Redlib</value>
+	</setting>
+
+	<!-- Set up linker to pull in MCU library -->
+	<setting id="linker.libs">
+    	<value>nxp_lpcxpresso_1125_board_lib</value>
+		<value>lpc_chip_1125_lib</value>
+	</setting>
+
+	<setting id="linker.paths" buildType="Debug">
+		<value>${workspace_loc:/nxp_lpcxpresso_1125_board_lib/Debug}</value>
+		<value>${workspace_loc:/lpc_chip_1125_lib/Debug}</value>
+	</setting>
+
+	<setting id="linker.paths" buildType="Release">
+		<value>${workspace_loc:/nxp_lpcxpresso_1125_board_lib/Release}</value>
+		<value>${workspace_loc:/lpc_chip_1125_lib/Release}</value>
+	</setting>
+
+	<!-- Set up linker to pull in appropriate C library -->
+	<setting id="linker.library.type">
+		<value>Redlib (nohost)</value>
+	</setting>
+
+	<requires>
+		<value>lpc_chip_1125_lib</value>
+		<value>nxp_lpcxpresso_1125_board_lib</value>
+	</requires>
+
+    <if test="11xx==8xx">
+        <!-- Enable CRP support linker -->
+        <setting id="linker.crp">
+            <value>true</value>
+	    </setting>
+    </if>
+    
+    <if test="11xx!=8xx">
+        <!-- Disable CRP support linker for other chips as of now -->
+        <setting id="linker.crp">
+            <value>false</value>
+	    </setting>
+    </if>
+
+</settings>
+</script>
+</project>

@@ -1,0 +1,2 @@
+Prelminary  - Used ADSP-21489 , AD1939, OT275
+Indev 1 - Uses ADSAP-21478, AD1939, OT275, PSoC5LP daughter board

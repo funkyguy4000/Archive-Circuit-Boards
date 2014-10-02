@@ -1,0 +1,15 @@
+
+**** Build of configuration Debug for project Interceptor ****
+
+xmake CONFIG=Debug all 
+Compiling main.xc
+../src/main.xc: In function `fftRealTest':
+../src/main.xc:20: error: parse error before "timer"
+../src/main.xc:21: error: parse error before "int"
+../src/main.xc:26: error: `t' undeclared (first use in this function)
+../src/main.xc:26: error: (Each undeclared identifier is reported only once
+../src/main.xc:26: error: for each function it appears in.)
+../src/main.xc:26: error: `t0' undeclared (first use in this function)
+../src/main.xc:27: error: `t1' undeclared (first use in this function)
+xmake[1]: *** [.build_Debug/src/main.xc.o] Error 1
+xmake: *** [bin/Debug/FFT_Debug.xe] Error 2

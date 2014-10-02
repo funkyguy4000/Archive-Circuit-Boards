@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <ConverterSpecs>
+    <ConverterSpec>
+      <LastSavedFilesCultureInfo>en-US</LastSavedFilesCultureInfo>
+      <PartName>LTC3855</PartName>
+      <OutputNum>Two</OutputNum>
+      <MinVin>7</MinVin>
+      <NomVin>12</NomVin>
+      <MaxVin>15</MaxVin>
+      <SwitchingFreq>496000</SwitchingFreq>
+      <OutputVol1>4.99</OutputVol1>
+      <OutputCur1>10</OutputCur1>
+      <OutputVol2>3.32</OutputVol2>
+      <OutputCur2>2.5</OutputCur2>
+      <OutputVol3>0</OutputVol3>
+      <OutputCur3>0</OutputCur3>
+      <OutputVol4>0</OutputVol4>
+      <OutputCur4>0</OutputCur4>
+      <NPara>1</NPara>
+      <NomSwitchingFreq>500000</NomSwitchingFreq>
+      <Topology>Buck</Topology>
+      <Type>Controller</Type>
+      <BurstMode>false</BurstMode>
+      <Synchronous>false</Synchronous>
+      <Isolated>false</Isolated>
+      <Run>true</Run>
+      <ExtClock>false</ExtClock>
+      <Tracking>false</Tracking>
+      <RemoteSensing>false</RemoteSensing>
+      <MarginControl>false</MarginControl>
+      <PowerGood>true</PowerGood>
+      <PolyPhase>false</PolyPhase>
+      <I2CorPMBusInterface>false</I2CorPMBusInterface>
+      <UserEnteredPartNumber>0</UserEnteredPartNumber>
+      <CurrentSensingConfiguration>0</CurrentSensingConfiguration>
+      <TopFetCH1PartName>FDMS7578</TopFetCH1PartName>
+      <NumOfCH1TopMosfets>1</NumOfCH1TopMosfets>
+      <RdsOnTopCH1>0.0063</RdsOnTopCH1>
+      <QgTopCH1>8E-09</QgTopCH1>
+      <QgsTopCH1>3.7E-09</QgsTopCH1>
+      <QgdTopCH1>1.7E-09</QgdTopCH1>
+      <VmillerTopCH1>2.9</VmillerTopCH1>
+      <VthTopCH1>2</VthTopCH1>
+      <RgateTopCH1>1.2</RgateTopCH1>
+      <TopMosfetVendorCH1>Fairchild</TopMosfetVendorCH1>
+      <VdssTopCH1>25</VdssTopCH1>
+      <VdiodeTopCH1>0.83</VdiodeTopCH1>
+      <TopMosfetLengthCH1>6</TopMosfetLengthCH1>
+      <TopMosfetWidthCH1>5</TopMosfetWidthCH1>
+      <TopMosfetHeightCH1>1.1</TopMosfetHeightCH1>
+      <TopMosfetPackageCH1>POWER 56</TopMosfetPackageCH1>
+      <TopMosfetUserNoteCH1 />
+      <TopFetCH2PartName>FDMS7578</TopFetCH2PartName>
+      <NumOfCH2TopMosfets>1</NumOfCH2TopMosfets>
+      <RdsOnTopCH2>0.0063</RdsOnTopCH2>
+      <QgTopCH2>8E-09</QgTopCH2>
+      <QgsTopCH2>3.7E-09</QgsTopCH2>
+      <QgdTopCH2>1.7E-09</QgdTopCH2>
+      <VmillerTopCH2>2.9</VmillerTopCH2>
+      <VthTopCH2>2</VthTopCH2>
+      <RgateTopCH2>1.2</RgateTopCH2>
+      <TopMosfetVendorCH2>Fairchild</TopMosfetVendorCH2>
+      <VdssTopCH2>25</VdssTopCH2>
+      <VdiodeTopCH2>0.83</VdiodeTopCH2>
+      <TopMosfetLengthCH2>6</TopMosfetLengthCH2>
+      <TopMosfetWidthCH2>5</TopMosfetWidthCH2>
+      <TopMosfetHeightCH2>1.1</TopMosfetHeightCH2>
+      <TopMosfetPackageCH2>POWER 56</TopMosfetPackageCH2>
+      <TopMosfetUserNoteCH2 />
+      <TopFetCH3PartName />
+      <NumOfCH3TopMosfets>0</NumOfCH3TopMosfets>
+      <RdsOnTopCH3>0</RdsOnTopCH3>
+      <QgTopCH3>0</QgTopCH3>
+      <QgsTopCH3>0</QgsTopCH3>
+      <QgdTopCH3>0</QgdTopCH3>
+      <VmillerTopCH3>0</VmillerTopCH3>
+      <VthTopCH3>0</VthTopCH3>
+      <RgateTopCH3>0</RgateTopCH3>
+      <TopMosfetVendorCH3 />
+      <VdssTopCH3>0</VdssTopCH3>
+      <VdiodeTopCH3>0</VdiodeTopCH3>
+      <TopMosfetLengthCH3>0</TopMosfetLengthCH3>
+      <TopMosfetWidthCH3>0</TopMosfetWidthCH3>
+      <TopMosfetHeightCH3>0</TopMosfetHeightCH3>
+      <TopMosfetPackageCH3 />
+      <TopMosfetUserNoteCH3 />
+      <BotFetCH1PartName>FDMS8558S</BotFetCH1PartName>
+      <NumOfCH1BotMosfets>1</NumOfCH1BotMosfets>
+      <RdsBotCH1>0.0013</RdsBotCH1>
+      <QgBotCH1>3.8E-08</QgBotCH1>
+      <RgateBotCH1>0.9</RgateBotCH1>
+      <VdiodeBotFetsCH1>0.6</VdiodeBotFetsCH1>
+      <BotMosfetVendorCH1>Fairchild</BotMosfetVendorCH1>
+      <VdssBotCH1>25</VdssBotCH1>
+      <QgdBotCH1>9.7E-09</QgdBotCH1>
+      <QgsBotCH1>1E-08</QgsBotCH1>
+      <VmillerBotCH1>2.1</VmillerBotCH1>
+      <VthBotCH1>1.7</VthBotCH1>
+      <BotMosfetLengthCH1>6</BotMosfetLengthCH1>
+      <BotMosfetWidthCH1>5</BotMosfetWidthCH1>
+      <BotMosfetHeightCH1>1.1</BotMosfetHeightCH1>
+      <BotMosfetPackageCH1>POWER 56</BotMosfetPackageCH1>
+      <BotMosfetUserNoteCH1 />
+      <BotFetCH2PartName>FDMS8558S</BotFetCH2PartName>
+      <NumOfCH2BotMosfets>1</NumOfCH2BotMosfets>
+      <RdsBotCH2>0.0013</RdsBotCH2>
+      <QgBotCH2>3.8E-08</QgBotCH2>
+      <RgateBotCH2>0.9</RgateBotCH2>
+      <VdiodeBotFetsCH2>0.6</VdiodeBotFetsCH2>
+      <BotMosfetVendorCH2>Fairchild</BotMosfetVendorCH2>
+      <VdssBotCH2>25</VdssBotCH2>
+      <QgdBotCH2>9.7E-09</QgdBotCH2>
+      <QgsBotCH2>1E-08</QgsBotCH2>
+      <VmillerBotCH2>2.1</VmillerBotCH2>
+      <VthBotCH2>1.7</VthBotCH2>
+      <BotMosfetLengthCH2>6</BotMosfetLengthCH2>
+      <BotMosfetWidthCH2>5</BotMosfetWidthCH2>
+      <BotMosfetHeightCH2>1.1</BotMosfetHeightCH2>
+      <BotMosfetPackageCH2>POWER 56</BotMosfetPackageCH2>
+      <BotMosfetUserNoteCH2 />
+      <BotFetCH3PartName />
+      <NumOfCH3BotMosfets>0</NumOfCH3BotMosfets>
+      <RdsBotCH3>0</RdsBotCH3>
+      <QgBotCH3>0</QgBotCH3>
+      <RgateBotCH3>0</RgateBotCH3>
+      <VdiodeBotFetsCH3>0</VdiodeBotFetsCH3>
+      <BotMosfetVendorCH3 />
+      <VdssBotCH3>0</VdssBotCH3>
+      <QgdBotCH3>0</QgdBotCH3>
+      <QgsBotCH3>0</QgsBotCH3>
+      <VmillerBotCH3>0</VmillerBotCH3>
+      <VthBotCH3>0</VthBotCH3>
+      <BotMosfetLengthCH3>0</BotMosfetLengthCH3>
+      <BotMosfetWidthCH3>0</BotMosfetWidthCH3>
+      <BotMosfetHeightCH3>0</BotMosfetHeightCH3>
+      <BotMosfetPackageCH3 />
+      <BotMosfetUserNoteCH3 />
+      <VforwardCH1>0</VforwardCH1>
+      <SchottkyVendorCH1 />
+      <SchottkyPartNameCH1 />
+      <VforwardCH2>0</VforwardCH2>
+      <SchottkyVendorCH2 />
+      <SchottkyPartNameCH2 />
+      <VforwardCH3>0</VforwardCH3>
+      <SchottkyVendorCH3 />
+      <SchottkyPartNameCH3 />
+      <VforwardCH4>0</VforwardCH4>
+      <SchottkyVendorCH4 />
+      <SchottkyPartNameCH4 />
+    </ConverterSpec>
+  </ConverterSpecs>
+  <ProgramUserInfos>
+    <ProgramUserInfo>
+      <LastRecordedSyncDate>2014-02-01T00:00:00</LastRecordedSyncDate>
+      <ReleaseType>Customer</ReleaseType>
+      <InstallationDate>2013-09-22T00:00:00</InstallationDate>
+      <LTpowerCADVer>2</LTpowerCADVer>
+      <LTpowerCADSubDesc>Release1</LTpowerCADSubDesc>
+      <LTpowerCADUpdateVer>2</LTpowerCADUpdateVer>
+      <LTpowerCADUpdateVerDate>2013-06-12T00:00:00</LTpowerCADUpdateVerDate>
+    </ProgramUserInfo>
+  </ProgramUserInfos>
+  <OutputRailDatas>
+    <OutputRailData>
+      <Freqmin>250</Freqmin>
+      <Freqmax>770</Freqmax>
+      <VinToCalc>12</VinToCalc>
+      <IoToCalc>10</IoToCalc>
+      <MinIoToCalc>0</MinIoToCalc>
+      <MaxVin>15</MaxVin>
+      <NomVin>12</NomVin>
+      <MinVin>7</MinVin>
+      <SwitchingFreq>496000</SwitchingFreq>
+      <OutputVol>4.99</OutputVol>
+      <OutputCur>10</OutputCur>
+      <NPh>1</NPh>
+      <NIc>1</NIc>
+      <InductorRipplePercentDesired>40</InductorRipplePercentDesired>
+      <Lo>2.1999999999999999E-07</Lo>
+      <DCR>0.00452</DCR>
+      <InductorManufacturer>Vishay</InductorManufacturer>
+      <InductorPartNumber>IHLP2020CZ-01</InductorPartNumber>
+      <InductorLength>5.18</InductorLength>
+      <InductorWidth>5.49</InductorWidth>
+      <InductorHeight>2.54</InductorHeight>
+      <InductorUserNote />
+      <Cin>2.2E-05</Cin>
+      <NCin>2</NCin>
+      <CinLength>0</CinLength>
+      <CinWidth>0</CinWidth>
+      <CinHeight>0</CinHeight>
+      <CinPackage />
+      <CinPartNumber />
+      <CinManufacturer />
+      <CinUserNote />
+      <Cob>0.00033</Cob>
+      <ESRb>0.0090000000000000011</ESRb>
+      <ESLb>2E-09</ESLb>
+      <Numb>1</Numb>
+      <BulkCapacitorManufacturer></BulkCapacitorManufacturer>
+      <BulkCapacitorPartNumber></BulkCapacitorPartNumber>
+      <BulkCapacitorLength>0</BulkCapacitorLength>
+      <BulkCapacitorWidth>0</BulkCapacitorWidth>
+      <BulkCapacitorHeight>0</BulkCapacitorHeight>
+      <BulkCapacitorPackage />
+      <BulkCapacitorUserNote />
+      <Coc>9.9999999999999991E-06</Coc>
+      <ESRc>0.003</ESRc>
+      <ESLc>8.0000000000000013E-10</ESLc>
+      <Numc>1</Numc>
+      <CeramicCapacitorManufacturer></CeramicCapacitorManufacturer>
+      <CeramicCapacitorPartNumber></CeramicCapacitorPartNumber>
+      <CeramicCapacitorLength>0</CeramicCapacitorLength>
+      <CeramicCapacitorWidth>0</CeramicCapacitorWidth>
+      <CeramicCapacitorHeight>0</CeramicCapacitorHeight>
+      <CeramicCapacitorPackage />
+      <CeramicCapacitorUserNote />
+      <Cth>9.1E-10</Cth>
+      <Cthp>6.7999999999999993E-12</Cthp>
+      <Rth>10000</Rth>
+      <Ccomp>0</Ccomp>
+      <RfbTopActual>60400</RfbTopActual>
+      <RfbBotActual>8250</RfbBotActual>
+      <CfbTopActual>0</CfbTopActual>
+      <CfbBotActual>0</CfbBotActual>
+      <RfbBotTolerance>0</RfbBotTolerance>
+      <RfbTopTolerance>0</RfbTopTolerance>
+      <FcDesired>25000</FcDesired>
+      <PhaseBoostDesired>10</PhaseBoostDesired>
+      <PhaseMarginDesired>70</PhaseMarginDesired>
+      <Ilim>0.03</Ilim>
+      <VRNG>0</VRNG>
+      <MarginIoLimit>150</MarginIoLimit>
+      <Rsense>0.0018</Rsense>
+      <RsenseLength>0</RsenseLength>
+      <RsenseWidth>0</RsenseWidth>
+      <RsenseHeight>0</RsenseHeight>
+      <RsensePackage />
+      <RsensePartNumber />
+      <RsenseManufacturer />
+      <RsenseUserNote />
+      <RsenseFilterR>200</RsenseFilterR>
+      <RsenseFilterC>1E-09</RsenseFilterC>
+      <SenseC>4.7E-08</SenseC>
+      <SenseRp>7150</SenseRp>
+      <SenseRs>4019.9999999999995</SenseRs>
+      <SenseRsDC>0</SenseRsDC>
+      <SenseCDC>0</SenseCDC>
+      <Vforward>0.5</Vforward>
+      <SchottkyVendor />
+      <SchottkyPartName />
+      <CurrentSensingConfigurationType>0</CurrentSensingConfigurationType>
+      <SynchronousOrNonSynchronousConfigurationType>0</SynchronousOrNonSynchronousConfigurationType>
+      <CompConfigurationType>0</CompConfigurationType>
+      <SwitchingFreqDesired>496000</SwitchingFreqDesired>
+      <Vfreq>0</Vfreq>
+      <Rfreq>113000</Rfreq>
+      <Vb>0</Vb>
+      <Rfreq2>0</Rfreq2>
+      <Vvon>0</Vvon>
+      <LoadStepLow>0</LoadStepLow>
+      <LoadStepHigh>5</LoadStepHigh>
+      <LoadStepSlewRate>10000000</LoadStepSlewRate>
+      <SlopeCompSlopePointForDesign>0</SlopeCompSlopePointForDesign>
+      <TonMin>9E-08</TonMin>
+      <ToffMin>0</ToffMin>
+      <ProjectName></ProjectName>
+      <ProjectDate></ProjectDate>
+      <ProjectDesigner></ProjectDesigner>
+      <DividerSelection />
+      <IlimSelection />
+      <RinSense>0</RinSense>
+      <RinSenseLength>0</RinSenseLength>
+      <RinSenseWidth>0</RinSenseWidth>
+      <RinSenseHeight>0</RinSenseHeight>
+      <RinSensePackage></RinSensePackage>
+      <RinSensePartNumber />
+      <RinSenseManufacturer />
+      <RinSenseUserNote />
+      <VinStartUp>7</VinStartUp>
+      <VSD_Desired>7</VSD_Desired>
+      <RHYST>0</RHYST>
+      <VRUN />
+      <RTUV>0</RTUV>
+      <RBUV>0</RBUV>
+      <VOV_Latch_Desired>7</VOV_Latch_Desired>
+      <VOV_NonLatch_Desired>7</VOV_NonLatch_Desired>
+      <RBOV>0</RBOV>
+      <RMOV>0</RMOV>
+      <RTOV>0</RTOV>
+      <RTOV_OVP>0</RTOV_OVP>
+      <RBOV_OVP>0</RBOV_OVP>
+      <COV_OVP>0</COV_OVP>
+      <VOVP_Desired>0</VOVP_Desired>
+      <PartLength>6</PartLength>
+      <PartWidth>6</PartWidth>
+      <PartHeight>0.8</PartHeight>
+      <PartUserNote />
+      <FootprintClearanceFactor>1</FootprintClearanceFactor>
+    </OutputRailData>
+    <OutputRailData>
+      <Freqmin>250</Freqmin>
+      <Freqmax>770</Freqmax>
+      <VinToCalc>12</VinToCalc>
+      <IoToCalc>2.5</IoToCalc>
+      <MinIoToCalc>0</MinIoToCalc>
+      <MaxVin>15</MaxVin>
+      <NomVin>12</NomVin>
+      <MinVin>7</MinVin>
+      <SwitchingFreq>496000</SwitchingFreq>
+      <OutputVol>3.32</OutputVol>
+      <OutputCur>2.5</OutputCur>
+      <NPh>1</NPh>
+      <NIc>1</NIc>
+      <InductorRipplePercentDesired>40</InductorRipplePercentDesired>
+      <Lo>6.8000000000000005E-07</Lo>
+      <DCR>0.00895</DCR>
+      <InductorManufacturer>Vishay</InductorManufacturer>
+      <InductorPartNumber>IHLP2020CZ-01-68</InductorPartNumber>
+      <InductorLength>5.18</InductorLength>
+      <InductorWidth>5349</InductorWidth>
+      <InductorHeight>2.54</InductorHeight>
+      <InductorUserNote />
+      <Cin>0</Cin>
+      <NCin>0</NCin>
+      <CinLength>0</CinLength>
+      <CinWidth>0</CinWidth>
+      <CinHeight>0</CinHeight>
+      <CinPackage />
+      <CinPartNumber />
+      <CinManufacturer />
+      <CinUserNote />
+      <Cob>0.00033</Cob>
+      <ESRb>0.0090000000000000011</ESRb>
+      <ESLb>2E-09</ESLb>
+      <Numb>1</Numb>
+      <BulkCapacitorManufacturer></BulkCapacitorManufacturer>
+      <BulkCapacitorPartNumber></BulkCapacitorPartNumber>
+      <BulkCapacitorLength>0</BulkCapacitorLength>
+      <BulkCapacitorWidth>0</BulkCapacitorWidth>
+      <BulkCapacitorHeight>0</BulkCapacitorHeight>
+      <BulkCapacitorPackage />
+      <BulkCapacitorUserNote />
+      <Coc>9.9999999999999991E-06</Coc>
+      <ESRc>0.003</ESRc>
+      <ESLc>8.0000000000000013E-10</ESLc>
+      <Numc>1</Numc>
+      <CeramicCapacitorManufacturer></CeramicCapacitorManufacturer>
+      <CeramicCapacitorPartNumber></CeramicCapacitorPartNumber>
+      <CeramicCapacitorLength>0</CeramicCapacitorLength>
+      <CeramicCapacitorWidth>0</CeramicCapacitorWidth>
+      <CeramicCapacitorHeight>0</CeramicCapacitorHeight>
+      <CeramicCapacitorPackage />
+      <CeramicCapacitorUserNote />
+      <Cth>1.5E-09</Cth>
+      <Cthp>1E-10</Cthp>
+      <Rth>20000</Rth>
+      <Ccomp>0</Ccomp>
+      <RfbTopActual>60400</RfbTopActual>
+      <RfbBotActual>13300</RfbBotActual>
+      <CfbTopActual>0</CfbTopActual>
+      <CfbBotActual>0</CfbBotActual>
+      <RfbBotTolerance>0</RfbBotTolerance>
+      <RfbTopTolerance>0</RfbTopTolerance>
+      <FcDesired>25000</FcDesired>
+      <PhaseBoostDesired>10</PhaseBoostDesired>
+      <PhaseMarginDesired>70</PhaseMarginDesired>
+      <Ilim>0.03</Ilim>
+      <VRNG>0</VRNG>
+      <MarginIoLimit>150</MarginIoLimit>
+      <Rsense>0.0056</Rsense>
+      <RsenseLength>0</RsenseLength>
+      <RsenseWidth>0</RsenseWidth>
+      <RsenseHeight>0</RsenseHeight>
+      <RsensePackage />
+      <RsensePartNumber />
+      <RsenseManufacturer />
+      <RsenseUserNote />
+      <RsenseFilterR>200</RsenseFilterR>
+      <RsenseFilterC>1E-09</RsenseFilterC>
+      <SenseC>4.7E-08</SenseC>
+      <SenseRp>7150</SenseRp>
+      <SenseRs>4019.9999999999995</SenseRs>
+      <SenseRsDC>0</SenseRsDC>
+      <SenseCDC>0</SenseCDC>
+      <Vforward>0.5</Vforward>
+      <SchottkyVendor />
+      <SchottkyPartName />
+      <CurrentSensingConfigurationType>0</CurrentSensingConfigurationType>
+      <SynchronousOrNonSynchronousConfigurationType>0</SynchronousOrNonSynchronousConfigurationType>
+      <CompConfigurationType>0</CompConfigurationType>
+      <SwitchingFreqDesired>496000</SwitchingFreqDesired>
+      <Vfreq>0</Vfreq>
+      <Rfreq>113000</Rfreq>
+      <Vb>0</Vb>
+      <Rfreq2>0</Rfreq2>
+      <Vvon>0</Vvon>
+      <LoadStepLow>0</LoadStepLow>
+      <LoadStepHigh>1.25</LoadStepHigh>
+      <LoadStepSlewRate>10000000</LoadStepSlewRate>
+      <SlopeCompSlopePointForDesign>0</SlopeCompSlopePointForDesign>
+      <TonMin>9E-08</TonMin>
+      <ToffMin>0</ToffMin>
+      <ProjectName />
+      <ProjectDate />
+      <ProjectDesigner />
+      <DividerSelection />
+      <IlimSelection />
+      <RinSense>0</RinSense>
+      <RinSenseLength>0</RinSenseLength>
+      <RinSenseWidth>0</RinSenseWidth>
+      <RinSenseHeight>0</RinSenseHeight>
+      <RinSensePackage></RinSensePackage>
+      <RinSensePartNumber />
+      <RinSenseManufacturer />
+      <RinSenseUserNote />
+      <VinStartUp>7</VinStartUp>
+      <VSD_Desired>7</VSD_Desired>
+      <RHYST>0</RHYST>
+      <VRUN />
+      <RTUV>0</RTUV>
+      <RBUV>0</RBUV>
+      <VOV_Latch_Desired>7</VOV_Latch_Desired>
+      <VOV_NonLatch_Desired>7</VOV_NonLatch_Desired>
+      <RBOV>0</RBOV>
+      <RMOV>0</RMOV>
+      <RTOV>0</RTOV>
+      <RTOV_OVP>0</RTOV_OVP>
+      <RBOV_OVP>0</RBOV_OVP>
+      <COV_OVP>0</COV_OVP>
+      <VOVP_Desired>0</VOVP_Desired>
+      <PartLength>6</PartLength>
+      <PartWidth>6</PartWidth>
+      <PartHeight>0.8</PartHeight>
+      <PartUserNote />
+      <FootprintClearanceFactor>1</FootprintClearanceFactor>
+    </OutputRailData>
+  </OutputRailDatas>
+</Root>

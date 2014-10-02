@@ -1,0 +1,4 @@
+-TPS84320:
+
+CHANGE OUTPUT CERAMICS!!
+There aren't any 47uF at an 0603 package

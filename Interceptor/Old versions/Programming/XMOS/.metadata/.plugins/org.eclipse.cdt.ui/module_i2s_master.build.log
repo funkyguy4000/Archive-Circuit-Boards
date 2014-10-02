@@ -1,0 +1,5 @@
+
+**** Build of configuration Default for project module_i2s_master ****
+
+xmake -f .makefile all 
+"** Module only - only builds as part of application **"

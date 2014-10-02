@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewLicenseWizard">
+		<item value="" key="OneStep_Other_Region"/>
+		<item value="Middleton" key="OneStep_City"/>
+		<item value="608-443-9589" key="OneStep_Tel_Number"/>
+		<item value="Strutz" key="OneStep_Last_Name"/>
+		<item value="Shannon" key="OneStep_First_Name"/>
+		<item value="" key="OneStep_AddressLine3"/>
+		<item value="Wisconsin" key="OneStep_State"/>
+		<item value="strutzs3753@my.uwstout.edu" key="OneStep_Email"/>
+		<item value="53562" key="OneStep_Zip"/>
+		<item value="Student" key="OneStep_Company"/>
+		<item value="" key="OneStep_Job_Title"/>
+		<item value="" key="OneStep_AddressLine2"/>
+		<item value="UNITED STATES" key="OneStep_Country"/>
+		<item value="7121 Spring Hill Drive" key="OneStep_AddressLine1"/>
+	</section>
+</section>

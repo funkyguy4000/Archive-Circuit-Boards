@@ -1,0 +1,9 @@
+.\internal sram\system_lpc43xx.o: ..\..\..\Core\Device\NXP\LPC43xx\Source\Templates\system_LPC43xx.c
+.\internal sram\system_lpc43xx.o: ..\..\..\Core\Device\NXP\lpc43xx\Include\lpc43xx.h
+.\internal sram\system_lpc43xx.o: ..\..\..\Core\CMSIS\Include\core_cm4.h
+.\internal sram\system_lpc43xx.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\internal sram\system_lpc43xx.o: ..\..\..\Core\CMSIS\Include\core_cmInstr.h
+.\internal sram\system_lpc43xx.o: ..\..\..\Core\CMSIS\Include\core_cmFunc.h
+.\internal sram\system_lpc43xx.o: ..\..\..\Core\CMSIS\Include\core_cm4_simd.h
+.\internal sram\system_lpc43xx.o: ..\..\..\Core\Device\NXP\lpc43xx\Include\system_LPC43xx.h
+.\internal sram\system_lpc43xx.o: ..\..\..\Core\Device\NXP\lpc43xx\Include\fpu_enable.h

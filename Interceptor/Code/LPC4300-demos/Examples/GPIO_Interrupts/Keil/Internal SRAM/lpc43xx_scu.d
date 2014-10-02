@@ -1,0 +1,10 @@
+.\internal sram\lpc43xx_scu.o: ..\..\..\Drivers\source\lpc43xx_scu.c
+.\internal sram\lpc43xx_scu.o: ..\..\..\Core\Device\NXP\lpc43xx\Include\lpc43xx.h
+.\internal sram\lpc43xx_scu.o: ..\..\..\Core\CMSIS\Include\core_cm4.h
+.\internal sram\lpc43xx_scu.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\internal sram\lpc43xx_scu.o: ..\..\..\Core\CMSIS\Include\core_cmInstr.h
+.\internal sram\lpc43xx_scu.o: ..\..\..\Core\CMSIS\Include\core_cmFunc.h
+.\internal sram\lpc43xx_scu.o: ..\..\..\Core\CMSIS\Include\core_cm4_simd.h
+.\internal sram\lpc43xx_scu.o: ..\..\..\Core\Device\NXP\lpc43xx\Include\system_LPC43xx.h
+.\internal sram\lpc43xx_scu.o: ..\..\..\Drivers\include\lpc_types.h
+.\internal sram\lpc43xx_scu.o: ..\..\..\Drivers\include\lpc43xx_scu.h

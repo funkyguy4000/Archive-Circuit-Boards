@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PinMuxDesign>
+    <Chip>LPC4337FET100</Chip>
+    <Peripheral Name="EMC">
+        <Signals BallNumber="19" Signal="EMC_A0"/>
+        <Signals BallNumber="47" Signal="EMC_A1"/>
+        <Signals BallNumber="8" Signal="EMC_A2"/>
+        <Signals BallNumber="18" Signal="EMC_A3"/>
+        <Signals BallNumber="9" Signal="EMC_A4"/>
+        <Signals BallNumber="70" Signal="EMC_A5"/>
+        <Signals BallNumber="91" Signal="EMC_A6"/>
+        <Signals BallNumber="90" Signal="EMC_A7"/>
+        <Signals BallNumber="25" Signal="EMC_A8"/>
+        <Signals BallNumber="55" Signal="EMC_CAS"/>
+        <Signals BallNumber="28" Signal="EMC_CKEOUT0"/>
+        <Signals BallNumber="92" Signal="EMC_CLK0"/>
+        <Signals BallNumber="83" Signal="EMC_CS0"/>
+        <Signals BallNumber="63" Signal="EMC_D0"/>
+        <Signals BallNumber="74" Signal="EMC_D1"/>
+        <Signals BallNumber="84" Signal="EMC_D2"/>
+        <Signals BallNumber="75" Signal="EMC_D3"/>
+        <Signals BallNumber="86" Signal="EMC_D4"/>
+        <Signals BallNumber="96" Signal="EMC_D5"/>
+        <Signals BallNumber="77" Signal="EMC_D6"/>
+        <Signals BallNumber="87" Signal="EMC_D7"/>
+        <Signals BallNumber="57" Signal="EMC_DYCS0"/>
+        <Signals BallNumber="80" Signal="EMC_OE"/>
+        <Signals BallNumber="58" Signal="EMC_RAS"/>
+        <Signals BallNumber="93" Signal="EMC_WE"/>
+    </Peripheral>
+    <Peripheral Name="GPIO0">
+        <Signals BallNumber="60" Signal="GPIO0[1]"/>
+        <Signals BallNumber="97" Signal="GPIO0[2]"/>
+        <Signals BallNumber="78" Signal="GPIO0[3]"/>
+        <Signals BallNumber="26" Signal="GPIO0[6]"/>
+        <Signals BallNumber="29" Signal="GPIO0[7]"/>
+        <Signals BallNumber="81" Signal="GPIO0[11]"/>
+        <Signals BallNumber="79" Signal="GPIO0[12]"/>
+        <Signals BallNumber="89" Signal="GPIO0[13]"/>
+        <Signals BallNumber="99" Signal="GPIO0[15]"/>
+    </Peripheral>
+    <Peripheral Name="GPIO1">
+        <Signals BallNumber="17" Signal="GPIO1[14]"/>
+    </Peripheral>
+    <Peripheral Name="GPIO3">
+        <Signals BallNumber="64" Signal="GPIO3[0]"/>
+        <Signals BallNumber="88" Signal="GPIO3[1]"/>
+    </Peripheral>
+    <Peripheral Name="GPIO5">
+        <Signals BallNumber="69" Signal="GPIO5[0]"/>
+        <Signals BallNumber="66" Signal="GPIO5[1]"/>
+        <Signals BallNumber="54" Signal="GPIO5[2]"/>
+        <Signals BallNumber="68" Signal="GPIO5[6]"/>
+        <Signals BallNumber="36" Signal="GPIO5[10]"/>
+        <Signals BallNumber="46" Signal="GPIO5[11]"/>
+    </Peripheral>
+    <Peripheral Name="I2C0">
+        <Signals BallNumber="35" Signal="I2C0_SCL"/>
+        <Signals BallNumber="45" Signal="I2C0_SDA"/>
+    </Peripheral>
+    <Peripheral Name="I2C1">
+        <Signals BallNumber="38" Signal="I2C1_SCL"/>
+        <Signals BallNumber="37" Signal="I2C1_SDA"/>
+    </Peripheral>
+    <Peripheral Name="I2S0">
+        <Signals BallNumber="98" Signal="I2S0_RX_MCLK"/>
+        <Signals BallNumber="76" Signal="I2S0_RX_SCK"/>
+        <Signals BallNumber="65" Signal="I2S0_RX_SDA"/>
+        <Signals BallNumber="56" Signal="I2S0_RX_WS"/>
+        <Signals BallNumber="6" Signal="I2S0_TX_MCLK"/>
+        <Signals BallNumber="7" Signal="I2S0_TX_SCK"/>
+        <Signals BallNumber="16" Signal="I2S0_TX_SDA"/>
+        <Signals BallNumber="61" Signal="I2S0_TX_WS"/>
+    </Peripheral>
+    <Peripheral Name="JTAG">
+        <Signals BallNumber="71" Signal="TCK/SWDCLK"/>
+        <Signals BallNumber="62" Signal="TDI"/>
+        <Signals BallNumber="72" Signal="TDO/SWO"/>
+        <Signals BallNumber="23" Signal="TMS/SWDIO"/>
+        <Signals BallNumber="13" Signal="TRST"/>
+    </Peripheral>
+    <Peripheral Name="USB1">
+        <Signals BallNumber="49" Signal="USB1_DM"/>
+        <Signals BallNumber="48" Signal="USB1_DP"/>
+        <Signals BallNumber="39" Signal="USB1_VBUS"/>
+    </Peripheral>
+    <Peripheral Name="WAKEUP">
+        <Signals BallNumber="3" Signal="WAKEUP0"/>
+    </Peripheral>
+</PinMuxDesign>

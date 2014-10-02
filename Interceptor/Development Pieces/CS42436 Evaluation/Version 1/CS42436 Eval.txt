@@ -1,0 +1,34 @@
+Partlist exported from C:/Users/ShannonS/Dropbox/SEI Resources/Projects/Main Projects/Audio Analysis Board/Development Pieces/CS42436 Evaluation/CS42436 Eval.sch at 2/20/2014 3:31:54 PM
+
+Part Value             Device              Package               Description                     
+C1   .1uF              CAP0603-CAP         0603-CAP              Capacitor                       
+C2   100uF             CAP0603-CAP         0603-CAP              Capacitor                       
+C3   .1uF              CAP0603-CAP         0603-CAP              Capacitor                       
+C4   4.7uF             CAP0603-CAP         0603-CAP              Capacitor                       
+IC1  74AC126D          74AC126D            SO14                  Quad bus BUFFER, 3-state        
+JP1                    M06SMD              1X06-SMD              Header 6                        
+JP2                    M06SMD              1X06-SMD              Header 6                        
+JP3                    M06SMD              1X06-SMD              Header 6                        
+JP4                    M06SMD              1X06-SMD              Header 6                        
+JP5                    M06SMD              1X06-SMD              Header 6                        
+JP6                    M06SMD-STRAIGHT-ALT 1X06_SMD_STRAIGHT_ALT Header 6                        
+JP9                    M06SMD              1X06-SMD              Header 6                        
+JP10                   M06SMD              1X06-SMD              Header 6                        
+JP11                   M06SMD              1X06-SMD              Header 6                        
+R1   4.7K              R-US_R0402          R0402                 RESISTOR, American symbol       
+R2   4.7K              R-US_R0402          R0402                 RESISTOR, American symbol       
+R3   4.7K              R-US_R0402          R0402                 RESISTOR, American symbol       
+R4   10k               R-US_R0402          R0402                 RESISTOR, American symbol       
+R5   220               R-US_R0402          R0402                 RESISTOR, American symbol       
+R6                     RESISTOR1206        1206                  Resistor                        
+R7   220               R-US_R0402          R0402                 RESISTOR, American symbol       
+R8                     RESISTOR1206        1206                  Resistor                        
+SJ1  SOLDERJUMPERTRACE SOLDERJUMPERTRACE   SJ_2S-TRACE           Solder Jumper                   
+SJ2  SOLDERJUMPERTRACE SOLDERJUMPERTRACE   SJ_2S-TRACE           Solder Jumper                   
+SJ3  SOLDERJUMPERTRACE SOLDERJUMPERTRACE   SJ_2S-TRACE           Solder Jumper                   
+SJ4  SOLDERJUMPERTRACE SOLDERJUMPERTRACE   SJ_2S-TRACE           Solder Jumper                   
+SJ5  SOLDERJUMPERTRACE SOLDERJUMPERTRACE   SJ_2S-TRACE           Solder Jumper                   
+SJ6  SOLDERJUMPERTRACE SOLDERJUMPERTRACE   SJ_2S-TRACE           Solder Jumper                   
+SJ7  SOLDERJUMPERTRACE SOLDERJUMPERTRACE   SJ_2S-TRACE           Solder Jumper                   
+U$1  CS42436           CS42436             QFP-52                                                
+U1   OSCILLATOR5X3     OSCILLATOR5X3       CRYSTAL-SMD-5X3       Generic 5x3 and 7x5 oscillators 

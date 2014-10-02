@@ -1,0 +1,12 @@
+#Fri Dec 27 01:13:43 CST 2013
+eclipse.preferences.version=1
+environment/project/com.xmos.cdt.toolchain.114069327/XMOS_MODULE_PATH/delimiter=;
+environment/project/com.xmos.cdt.toolchain.114069327/XMOS_MODULE_PATH/operation=append
+environment/project/com.xmos.cdt.toolchain.114069327/XMOS_MODULE_PATH/value=C\:\\Users\\ShannonS\\.xmos\\repos\\sw_startkit_examples\\app_glowing_leds
+environment/project/com.xmos.cdt.toolchain.114069327/append=true
+environment/project/com.xmos.cdt.toolchain.114069327/appendContributed=true
+environment/project/com.xmos.cdt.toolchain.1863896741/XMOS_MODULE_PATH/delimiter=;
+environment/project/com.xmos.cdt.toolchain.1863896741/XMOS_MODULE_PATH/operation=append
+environment/project/com.xmos.cdt.toolchain.1863896741/XMOS_MODULE_PATH/value=C\:\\Users\\ShannonS\\.xmos\\repos\\sw_startkit_examples\\app_glowing_leds
+environment/project/com.xmos.cdt.toolchain.1863896741/append=true
+environment/project/com.xmos.cdt.toolchain.1863896741/appendContributed=true

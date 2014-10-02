@@ -1,0 +1,56 @@
+Dependencies for Project 'GPIO_Interrupts', Target 'LPC4350_IntSRAM': (DO NOT MODIFY !)
+F (..\..\..\Core\Device\NXP\LPC43xx\Source\Templates\system_LPC43xx.c)(0x50F040D8)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O1 --apcs=interwork -I..\ -I..\..\..\Core\CMSIS\Include -I..\..\..\Core\Device\NXP\lpc43xx\Include -I..\..\..\Drivers\include -I..\..\..\Boards-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC43xx-DCORE_M4 -o ".\internal sram\system_lpc43xx.o" --omf_browse ".\internal sram\system_lpc43xx.crf" --depend ".\internal sram\system_lpc43xx.d")
+I (..\..\..\Core\Device\NXP\lpc43xx\Include\lpc43xx.h)(0x50D87231)
+I (..\..\..\Core\CMSIS\Include\core_cm4.h)(0x50D87231)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x51C86E14)
+I (..\..\..\Core\CMSIS\Include\core_cmInstr.h)(0x50D87231)
+I (..\..\..\Core\CMSIS\Include\core_cmFunc.h)(0x50D87231)
+I (..\..\..\Core\CMSIS\Include\core_cm4_simd.h)(0x50D87231)
+I (..\..\..\Core\Device\NXP\lpc43xx\Include\system_LPC43xx.h)(0x50D87231)
+I (..\..\..\Core\Device\NXP\lpc43xx\Include\fpu_enable.h)(0x50D87231)
+F (..\..\..\Drivers\source\lpc43xx_cgu.c)(0x50E46533)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O1 --apcs=interwork -I..\ -I..\..\..\Core\CMSIS\Include -I..\..\..\Core\Device\NXP\lpc43xx\Include -I..\..\..\Drivers\include -I..\..\..\Boards-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC43xx-DCORE_M4 -o ".\internal sram\lpc43xx_cgu.o" --omf_browse ".\internal sram\lpc43xx_cgu.crf" --depend ".\internal sram\lpc43xx_cgu.d")
+I (..\..\..\Drivers\include\lpc_types.h)(0x50D87231)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x51C86E14)
+I (..\..\..\Drivers\include\lpc43xx_scu.h)(0x50D87231)
+I (..\..\..\Drivers\include\lpc43xx_cgu.h)(0x50D87231)
+I (..\..\..\Core\Device\NXP\lpc43xx\Include\lpc43xx.h)(0x50D87231)
+I (..\..\..\Core\CMSIS\Include\core_cm4.h)(0x50D87231)
+I (..\..\..\Core\CMSIS\Include\core_cmInstr.h)(0x50D87231)
+I (..\..\..\Core\CMSIS\Include\core_cmFunc.h)(0x50D87231)
+I (..\..\..\Core\CMSIS\Include\core_cm4_simd.h)(0x50D87231)
+I (..\..\..\Core\Device\NXP\lpc43xx\Include\system_LPC43xx.h)(0x50D87231)
+F (..\..\..\Drivers\source\lpc43xx_gpio.c)(0x50D87231)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O1 --apcs=interwork -I..\ -I..\..\..\Core\CMSIS\Include -I..\..\..\Core\Device\NXP\lpc43xx\Include -I..\..\..\Drivers\include -I..\..\..\Boards-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC43xx-DCORE_M4 -o ".\internal sram\lpc43xx_gpio.o" --omf_browse ".\internal sram\lpc43xx_gpio.crf" --depend ".\internal sram\lpc43xx_gpio.d")
+I (..\..\..\Drivers\include\lpc43xx_gpio.h)(0x50D87231)
+I (..\..\..\Core\Device\NXP\lpc43xx\Include\lpc43xx.h)(0x50D87231)
+I (..\..\..\Core\CMSIS\Include\core_cm4.h)(0x50D87231)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x51C86E14)
+I (..\..\..\Core\CMSIS\Include\core_cmInstr.h)(0x50D87231)
+I (..\..\..\Core\CMSIS\Include\core_cmFunc.h)(0x50D87231)
+I (..\..\..\Core\CMSIS\Include\core_cm4_simd.h)(0x50D87231)
+I (..\..\..\Core\Device\NXP\lpc43xx\Include\system_LPC43xx.h)(0x50D87231)
+I (..\..\..\Drivers\include\lpc_types.h)(0x50D87231)
+I (..\..\..\Drivers\include\lpc43xx_libcfg_default.h)(0x50D87231)
+F (..\..\..\Drivers\source\lpc43xx_scu.c)(0x50D87231)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O1 --apcs=interwork -I..\ -I..\..\..\Core\CMSIS\Include -I..\..\..\Core\Device\NXP\lpc43xx\Include -I..\..\..\Drivers\include -I..\..\..\Boards-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC43xx-DCORE_M4 -o ".\internal sram\lpc43xx_scu.o" --omf_browse ".\internal sram\lpc43xx_scu.crf" --depend ".\internal sram\lpc43xx_scu.d")
+I (..\..\..\Core\Device\NXP\lpc43xx\Include\lpc43xx.h)(0x50D87231)
+I (..\..\..\Core\CMSIS\Include\core_cm4.h)(0x50D87231)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x51C86E14)
+I (..\..\..\Core\CMSIS\Include\core_cmInstr.h)(0x50D87231)
+I (..\..\..\Core\CMSIS\Include\core_cmFunc.h)(0x50D87231)
+I (..\..\..\Core\CMSIS\Include\core_cm4_simd.h)(0x50D87231)
+I (..\..\..\Core\Device\NXP\lpc43xx\Include\system_LPC43xx.h)(0x50D87231)
+I (..\..\..\Drivers\include\lpc_types.h)(0x50D87231)
+I (..\..\..\Drivers\include\lpc43xx_scu.h)(0x50D87231)
+F (..\..\..\Core\Device\NXP\LPC43xx\Source\Templates\ARM\startup_LPC43xx.s)(0x50D87231)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC43xx--pd "NO_CRP SETA 1" --list ".\internal sram\startup_lpc43xx.lst" --xref -o ".\internal sram\startup_lpc43xx.o" --depend ".\internal sram\startup_lpc43xx.d")
+F (..\main.c)(0x4F3D22CB)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O1 --apcs=interwork -I..\ -I..\..\..\Core\CMSIS\Include -I..\..\..\Core\Device\NXP\lpc43xx\Include -I..\..\..\Drivers\include -I..\..\..\Boards-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC43xx-DCORE_M4 -o ".\internal sram\main.o" --omf_browse ".\internal sram\main.crf" --depend ".\internal sram\main.d")
+I (..\..\..\Core\Device\NXP\lpc43xx\Include\LPC43xx.h)(0x50D87231)
+I (..\..\..\Core\CMSIS\Include\core_cm4.h)(0x50D87231)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x51C86E14)
+I (..\..\..\Core\CMSIS\Include\core_cmInstr.h)(0x50D87231)
+I (..\..\..\Core\CMSIS\Include\core_cmFunc.h)(0x50D87231)
+I (..\..\..\Core\CMSIS\Include\core_cm4_simd.h)(0x50D87231)
+I (..\..\..\Core\Device\NXP\lpc43xx\Include\system_LPC43xx.h)(0x50D87231)
+I (..\..\..\Boards\lpc4350_db1.h)(0x4F314F18)
+I (..\..\..\Drivers\include\lpc43xx_gpio.h)(0x50D87231)
+I (..\..\..\Drivers\include\lpc_types.h)(0x50D87231)
+I (..\..\..\Drivers\include\lpc43xx_scu.h)(0x50D87231)
+I (..\..\..\Drivers\include\lpc43xx_cgu.h)(0x50D87231)

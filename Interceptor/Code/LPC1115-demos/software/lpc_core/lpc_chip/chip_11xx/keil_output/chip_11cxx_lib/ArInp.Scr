@@ -1,0 +1,21 @@
+--create .\keil_output\chip_11cxx_lib\chip_11cxx_lib.lib
+.\keil_output\chip_11cxx_lib\ring_buffer.o
+.\keil_output\chip_11cxx_lib\acmp_11xx.o
+.\keil_output\chip_11cxx_lib\adc_11xx.o
+.\keil_output\chip_11cxx_lib\clock_11xx.o
+.\keil_output\chip_11cxx_lib\dac_11xx.o
+.\keil_output\chip_11cxx_lib\i2c_11xx.o
+.\keil_output\chip_11cxx_lib\iocon_11xx.o
+.\keil_output\chip_11cxx_lib\ssp_11xx.o
+.\keil_output\chip_11cxx_lib\sysctl_11xx.o
+.\keil_output\chip_11cxx_lib\timer_11xx.o
+.\keil_output\chip_11cxx_lib\uart_11xx.o
+.\keil_output\chip_11cxx_lib\wwdt_11xx.o
+.\keil_output\chip_11cxx_lib\sysinit_11xx.o
+.\keil_output\chip_11cxx_lib\chip_11xx.o
+.\keil_output\chip_11cxx_lib\adc_1125.o
+.\keil_output\chip_11cxx_lib\gpio_11xx_1.o
+.\keil_output\chip_11cxx_lib\gpio_11xx_2.o
+.\keil_output\chip_11cxx_lib\gpiogroup_11xx.o
+.\keil_output\chip_11cxx_lib\pinint_11xx.o
+.\keil_output\chip_11cxx_lib\pmu_11xx.o

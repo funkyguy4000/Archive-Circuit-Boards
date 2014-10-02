@@ -1,0 +1,6 @@
+
+**** Build of configuration Debug for project Hello World ****
+
+xmake CONFIG=Debug all 
+No modules used.
+Build Complete

@@ -1,0 +1,50 @@
+/*********************************************************************
+*              SEGGER MICROCONTROLLER GmbH & Co. KG                  *
+*        Solutions for real time microcontroller applications        *
+**********************************************************************
+*                                                                    *
+*        (c) 2011 SEGGER Microcontroller GmbH & Co. KG               *
+*                                                                    *
+* Internet: www.segger.com Support: support@segger.com               *
+*                                                                    *
+**********************************************************************
+----------------------------------------------------------------------
+File    : init.mac
+Purpose : Basic initialization for the Cortex-M0 core.
+          Brings the Cortex-M0 core out of reset.
+---------------------------END-OF-HEADER------------------------------
+*/
+__InitCore() {
+  __message "Macro file: Initializing core.";
+  //
+  // Configure M0 for infinite loop, so we make sure that it does not execute some random code
+  //
+  __writeMemory32(0x10080768, 0x10080000, "Memory");  // Dummy stack pointer
+  __writeMemory32(0x100800C1, 0x10080004, "Memory");  // Reset handler
+  __writeMemory32(0xE7FEE7FE, 0x100800C0, "Memory");  // jump to itself instruction for M0a
+  __writeMemory32(0x10080000, 0x40043404, "Memory");  // M0 shadow pointer.
+  //
+  // Release Cortex-M0 from reset
+  //
+  __writeMemory32(0, 0x40053104, "Memory");           // Bit 24 controls Cortex-M0 reset state. Setting it to 0, releases the Cortex-M0 from reset state.
+  __writeMemory32(0x10000000,0xE000ED08,"Memory");    // Setup vector table offset register for Cortex-M4
+}
+
+/*********************************************************************
+*
+*     execUserReset()
+*/
+execUserReset() {
+  __message "Macro file: execUserReset()";
+  __hwReset(0);
+  __InitCore();
+}
+
+/*********************************************************************
+*
+*     execUserPreload()
+*/
+execUserPreload() {
+  __message "Macro file: execUserPreload()";
+  __InitCore();
+}

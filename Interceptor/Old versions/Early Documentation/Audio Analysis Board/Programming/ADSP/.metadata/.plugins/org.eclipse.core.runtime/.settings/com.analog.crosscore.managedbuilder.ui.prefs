@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+npw-addComments=true
+npw-addTemplateCode=true
+npw-commandLineSupport=false
+npw-family=SHARC
+npw-language=2
+npw-processor=ADSP-21477
+npw-projectType=0
+npw-toolchain=CrossCore SHARC Toolchain

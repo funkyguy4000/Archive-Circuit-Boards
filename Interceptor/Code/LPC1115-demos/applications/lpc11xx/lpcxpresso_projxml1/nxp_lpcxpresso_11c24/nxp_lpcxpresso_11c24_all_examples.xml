@@ -1,0 +1,24 @@
+<!-- ************************************************************
+	   Code Red IDE script file for use in creating a library
+	   project, plus associated examples for a particular MCU range
+	   from the code provided in NXP Sample Software Suite
+
+	   This script is in a format suitable for use with the
+	   "Import Project(s) from XML Description" of the Code Red IDE.
+     *********************************************************** -->
+
+<workspace xmlns:xi="http://www.w3.org/2001/XInclude">
+<project description="lpc_chip_11cxx_lib/lpc_chip_11cxx_lib.xml" />
+<project description="nxp_lpcxpresso_11c24_board_lib/nxp_lpcxpresso_11c24_board_lib.xml" />
+<project description="periph/nxp_lpcxpresso_11c24_periph_adc/nxp_lpcxpresso_11c24_periph_adc.xml" />
+<project description="periph/nxp_lpcxpresso_11c24_periph_blinky/nxp_lpcxpresso_11c24_periph_blinky.xml" />
+<project description="periph/nxp_lpcxpresso_11c24_periph_bod/nxp_lpcxpresso_11c24_periph_bod.xml" />
+<project description="periph/nxp_lpcxpresso_11c24_periph_ccan_rom/nxp_lpcxpresso_11c24_periph_ccan_rom.xml" />
+<project description="periph/nxp_lpcxpresso_11c24_periph_clkout/nxp_lpcxpresso_11c24_periph_clkout.xml" />
+<project description="periph/nxp_lpcxpresso_11c24_periph_i2c/nxp_lpcxpresso_11c24_periph_i2c.xml" />
+<project description="periph/nxp_lpcxpresso_11c24_periph_pinint/nxp_lpcxpresso_11c24_periph_pinint.xml" />
+<project description="periph/nxp_lpcxpresso_11c24_periph_ssp/nxp_lpcxpresso_11c24_periph_ssp.xml" />
+<project description="periph/nxp_lpcxpresso_11c24_periph_uart/nxp_lpcxpresso_11c24_periph_uart.xml" />
+<project description="periph/nxp_lpcxpresso_11c24_periph_watchdog/nxp_lpcxpresso_11c24_periph_watchdog.xml" />
+<project description="freertos/nxp_lpcxpresso_11c24_freertos_blinky/nxp_lpcxpresso_11c24_freertos_blinky.xml" />
+</workspace>

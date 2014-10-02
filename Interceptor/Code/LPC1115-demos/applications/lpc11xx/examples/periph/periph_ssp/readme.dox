@@ -1,0 +1,90 @@
+/*
+ * @brief SSP example
+ * This example show how to use the SSP in 2 modes : Polling and Interrupt.
+ *
+ * @note
+ * Copyright(C) NXP Semiconductors, 2012
+ * All rights reserved.
+ *
+ * @par
+ * Software that is described herein is for illustrative purposes only
+ * which provides customers with programming information regarding the
+ * LPC products.  This software is supplied "AS IS" without any warranties of
+ * any kind, and NXP Semiconductors and its licensor disclaim any and
+ * all warranties, express or implied, including all implied warranties of
+ * merchantability, fitness for a particular purpose and non-infringement of
+ * intellectual property rights.  NXP Semiconductors assumes no responsibility
+ * or liability for the use of the software, conveys no license or rights under any
+ * patent, copyright, mask work right, or any other intellectual property rights in
+ * or to any products. NXP Semiconductors reserves the right to make changes
+ * in the software without notification. NXP Semiconductors also makes no
+ * representation or warranty that such application will be suitable for the
+ * specified use without further testing or modification.
+ *
+ * @par
+ * Permission to use, copy, modify, and distribute this software and its
+ * documentation is hereby granted, under NXP Semiconductors' and its
+ * licensor's relevant copyrights in the software, without fee, provided that it
+ * is used in conjunction with NXP Semiconductors microcontrollers.  This
+ * copyright, permission, and disclaimer notice must appear in all copies of
+ * this code.
+ */
+
+/** @defgroup EXAMPLES_PERIPH_11XX_SSP LPC11xx SSP/SPI example
+ * @ingroup EXAMPLES_PERIPH_11XX
+ * <b>Example description</b><br>
+ * This example describes how to use SPI in POLLING or INTERRUPT  mode.<br>
+ * The LOOPBACK_TEST macro is used to enable Loop-back mode of SPI peripheral. It allows
+ * a simple software testing. The transmit and receive data is connected together. No
+ * more connection is required in this case.
+ * If LOOPBACK_TEST macro is disabled, it is needed to connect 2 hardware boards,
+ * one for Master and one for Slave. Use SSP_MODE_TEST macro to select the SPI mode.<br>
+ *      SPI configuration:<br>
+ *          - CPHA = 0: Data is sampled on the first clock edge of SCK.<br>
+ *          - CPOL = 0: The rest state of the clock (between frames) is low.<br>
+ *          - Sample rate = 100KHz.<br>
+ *          - DSS = 8: 8 bits per transfer.<br>
+ *      After initialize transmit buffer, SPI master/slave will transfer a number of bytes
+ *      to SPI slave/master and receive data concurrently.<br>
+ *      When transferring completed, receive and transmit buffer will be compared. If they match,
+ *      the led is ON. If not the led is OFF.<br>
+ *      This example supports 2 transfer modes: POLLING mode and INTERRUPT mode.<br>
+ *
+ * <b>Special connection requirements</b><br>
+ * Connects SPI pins of the master boards to the slave boards.<br>
+ *  - LPCXpresso LPC11U14:
+ *    - P1.29: SPI_SCK<br>
+ *    - P0.2: SPI_SSEL<br>
+ *    - P0.8: SPI_MISO<br>
+ *    - P0.9: SPI_MOSI<br>
+ *  - LPCXpresso LPC11C24:
+ *    - P2.11: SPI_SCK<br>
+ *    - P0.2: SPI_SSEL<br>
+ *    - P0.8: SPI_MISO<br>
+ *    - P0.9: SPI_MOSI<br>
+ *  - LPCXpresso LPC1125:
+ *    - TBD<br>
+ *    The SCK pin of master board is connected to SCK of slave board.<br>
+ *    The SSEL pin of master board is connected to SSEL of slave board.<br>
+ *    The MISO pin of master board is connected to MISO of slave board.<br>
+ *    The MOSI pin of master board is connected to MOSI of slave board.<br>
+ *    Common ground must be connected together between two boards.<br>
+ *
+ * <b>Build procedures:</b><br>
+ * Visit the <a href="http://www.lpcware.com/content/project/lpcopen-platform-nxp-lpc-microcontrollers/lpcopen-v200-quickstart-guides">LPCOpen quickstart guides</a>
+ * to get started building LPCOpen projects.
+ *
+ * <b>Supported boards and board setup:</b><br>
+ * @ref LPCOPEN_11XX_BOARD_XPRESSO_11U14<br>
+ * @ref LPCOPEN_11XX_BOARD_BLUEBOARD_11U24<br>
+ * @ref LPCOPEN_11XX_BOARD_XPRESSO_11C24<br>
+ * @ref LPCOPEN_11XX_BOARD_MCORE48_1125<br>
+ *
+ * <b>Submitting LPCOpen issues:</b><br>
+ * @ref LPCOPEN_COMMUNITY
+ * @{
+ */
+
+/**
+ * @}
+ */

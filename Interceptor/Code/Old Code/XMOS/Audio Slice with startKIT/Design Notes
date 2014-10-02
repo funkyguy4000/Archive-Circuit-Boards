@@ -1,0 +1,12 @@
+Design Notes:
+
+-Maybe include seperate modes where if either the ADC or DAC aren't going to be used,
+ turn the unused one off in one mode and in another, just mute it.  
+ This would play into the concept of a portable battery powered product.
+
+-Possibly include a "test" mode where more CPU is dedicated to processing of the signal
+ to get amplitude and actual measurements like a test tool would
+ The output of a led visualization would be entirely optional at this point
+
+
+

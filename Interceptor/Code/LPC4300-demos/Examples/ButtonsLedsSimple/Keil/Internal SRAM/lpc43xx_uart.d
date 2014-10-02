@@ -1,0 +1,12 @@
+.\internal sram\lpc43xx_uart.o: ..\..\..\Drivers\source\lpc43xx_uart.c
+.\internal sram\lpc43xx_uart.o: ..\..\..\Drivers\include\lpc43xx_uart.h
+.\internal sram\lpc43xx_uart.o: ..\..\..\Core\Device\NXP\lpc43xx\Include\lpc43xx.h
+.\internal sram\lpc43xx_uart.o: ..\..\..\Core\CMSIS\Include\core_cm4.h
+.\internal sram\lpc43xx_uart.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\internal sram\lpc43xx_uart.o: ..\..\..\Core\CMSIS\Include\core_cmInstr.h
+.\internal sram\lpc43xx_uart.o: ..\..\..\Core\CMSIS\Include\core_cmFunc.h
+.\internal sram\lpc43xx_uart.o: ..\..\..\Core\CMSIS\Include\core_cm4_simd.h
+.\internal sram\lpc43xx_uart.o: ..\..\..\Core\Device\NXP\lpc43xx\Include\system_LPC43xx.h
+.\internal sram\lpc43xx_uart.o: ..\..\..\Drivers\include\lpc_types.h
+.\internal sram\lpc43xx_uart.o: ..\..\..\Drivers\include\lpc43xx_cgu.h
+.\internal sram\lpc43xx_uart.o: ..\..\..\Drivers\include\lpc43xx_libcfg_default.h

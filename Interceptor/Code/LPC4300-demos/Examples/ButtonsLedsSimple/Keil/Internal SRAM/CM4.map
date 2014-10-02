@@ -1,0 +1,398 @@
+Product: MDK-ARM Standard 5.10
+Component: ARM Compiler 5.04 update 1 (build 49)
+Tool: armlink [5040049]
+
+==============================================================================
+
+Section Cross References
+
+    system_lpc43xx.o(.text) refers to startup_lpc43xx.o(RESET) for __Vectors
+    system_lpc43xx.o(.text) refers to system_lpc43xx.o(.data) for .data
+    lpc43xx_cgu.o(.text) refers to lpc43xx_scu.o(.text) for scu_pinmux
+    lpc43xx_cgu.o(.text) refers to lpc43xx_cgu.o(.data) for .data
+    lpc43xx_cgu.o(.text) refers to lpc43xx_cgu.o(.constdata) for .constdata
+    lpc43xx_adc.o(.text) refers to lpc43xx_cgu.o(.text) for CGU_GetPCLKFrequency
+    lpc43xx_i2c.o(.text) refers to lpc43xx_cgu.o(.text) for CGU_EntityConnect
+    lpc43xx_i2c.o(.text) refers to lpc43xx_i2c.o(.bss) for .bss
+    lpc43xx_i2c.o(.text) refers to lpc43xx_i2c.o(.data) for .data
+    lpc43xx_i2s.o(.text) refers to lpc43xx_cgu.o(.text) for CGU_EntityConnect
+    lpc43xx_i2s.o(.text) refers to uldiv.o(.text) for __aeabi_uldivmod
+    lpc43xx_ssp.o(.text) refers to lpc43xx_cgu.o(.text) for CGU_EntityConnect
+    lpc43xx_ssp.o(.text) refers to uldiv.o(.text) for __aeabi_uldivmod
+    lpc43xx_uart.o(.text) refers to lpc43xx_cgu.o(.text) for CGU_GetPCLKFrequency
+    lpc43xx_uart.o(.text) refers to uldiv.o(.text) for __aeabi_uldivmod
+    startup_lpc43xx.o(RESET) refers to startup_lpc43xx.o(STACK) for __initial_sp
+    startup_lpc43xx.o(RESET) refers to startup_lpc43xx.o(.text) for Reset_Handler
+    startup_lpc43xx.o(.text) refers to entry.o(.ARM.Collect$$$$00000000) for __main
+    main.o(.text) refers to system_lpc43xx.o(.text) for SystemInit
+    main.o(.text) refers to lpc43xx_cgu.o(.text) for CGU_Init
+    main.o(.text) refers to lpc43xx_scu.o(.text) for scu_pinmux
+    main.o(.text) refers to lpc43xx_gpio.o(.text) for GPIO_SetDir
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry10a.o(.ARM.Collect$$$$0000000D) for __rt_final_cpp
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry11a.o(.ARM.Collect$$$$0000000F) for __rt_final_exit
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry7b.o(.ARM.Collect$$$$00000008) for _main_clock
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry8b.o(.ARM.Collect$$$$0000000A) for _main_cpp_init
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry9a.o(.ARM.Collect$$$$0000000B) for _main_init
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry5.o(.ARM.Collect$$$$00000004) for _main_scatterload
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry2.o(.ARM.Collect$$$$00000001) for _main_stk
+    uldiv.o(.text) refers to llushr.o(.text) for __aeabi_llsr
+    uldiv.o(.text) refers to llshl.o(.text) for __aeabi_llsl
+    entry2.o(.ARM.Collect$$$$00000001) refers to entry2.o(.ARM.Collect$$$$00002712) for __lit__00000000
+    entry2.o(.ARM.Collect$$$$00002712) refers to startup_lpc43xx.o(STACK) for __initial_sp
+    entry2.o(__vectab_stack_and_reset_area) refers to startup_lpc43xx.o(STACK) for __initial_sp
+    entry2.o(__vectab_stack_and_reset_area) refers to entry.o(.ARM.Collect$$$$00000000) for __main
+    entry5.o(.ARM.Collect$$$$00000004) refers to init.o(.text) for __scatterload
+    entry9a.o(.ARM.Collect$$$$0000000B) refers to main.o(.text) for main
+    entry9b.o(.ARM.Collect$$$$0000000C) refers to main.o(.text) for main
+    init.o(.text) refers to entry5.o(.ARM.Collect$$$$00000004) for __main_after_scatterload
+
+
+==============================================================================
+
+Removing Unused input sections from the image.
+
+    Removing system_lpc43xx.o(.emb_text), (8 bytes).
+    Removing lpc43xx_cgu.o(.emb_text), (8 bytes).
+    Removing lpc43xx_gpio.o(.emb_text), (8 bytes).
+    Removing lpc43xx_scu.o(.emb_text), (8 bytes).
+    Removing lpc43xx_adc.o(.emb_text), (8 bytes).
+    Removing lpc43xx_adc.o(.text), (336 bytes).
+    Removing lpc43xx_i2c.o(.emb_text), (8 bytes).
+    Removing lpc43xx_i2c.o(.text), (2012 bytes).
+    Removing lpc43xx_i2c.o(.bss), (48 bytes).
+    Removing lpc43xx_i2c.o(.data), (4 bytes).
+    Removing lpc43xx_i2s.o(.emb_text), (8 bytes).
+    Removing lpc43xx_i2s.o(.text), (960 bytes).
+    Removing lpc43xx_nvic.o(.emb_text), (8 bytes).
+    Removing lpc43xx_nvic.o(.text), (12 bytes).
+    Removing lpc43xx_pwr.o(.emb_text), (8 bytes).
+    Removing lpc43xx_pwr.o(.text), (72 bytes).
+    Removing lpc43xx_sct.o(.emb_text), (8 bytes).
+    Removing lpc43xx_sct.o(.text), (68 bytes).
+    Removing lpc43xx_ssp.o(.emb_text), (8 bytes).
+    Removing lpc43xx_ssp.o(.text), (880 bytes).
+    Removing lpc43xx_uart.o(.emb_text), (8 bytes).
+    Removing lpc43xx_uart.o(.text), (1856 bytes).
+    Removing startup_lpc43xx.o(HEAP), (0 bytes).
+    Removing main.o(.emb_text), (8 bytes).
+
+24 unused section(s) (total 6352 bytes) removed from the image.
+
+==============================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    ../clib/microlib/division.c              0x00000000   Number         0  uldiv.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry2.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry5.o ABSOLUTE
+    ../clib/microlib/longlong.c              0x00000000   Number         0  llushr.o ABSOLUTE
+    ../clib/microlib/longlong.c              0x00000000   Number         0  llshl.o ABSOLUTE
+    ..\..\..\Core\Device\NXP\LPC43xx\Source\Templates\ARM\startup_LPC43xx.s 0x00000000   Number         0  startup_lpc43xx.o ABSOLUTE
+    ..\..\..\Core\Device\NXP\LPC43xx\Source\Templates\system_LPC43xx.c 0x00000000   Number         0  system_lpc43xx.o ABSOLUTE
+    ..\..\..\Drivers\source\lpc43xx_adc.c    0x00000000   Number         0  lpc43xx_adc.o ABSOLUTE
+    ..\..\..\Drivers\source\lpc43xx_cgu.c    0x00000000   Number         0  lpc43xx_cgu.o ABSOLUTE
+    ..\..\..\Drivers\source\lpc43xx_gpio.c   0x00000000   Number         0  lpc43xx_gpio.o ABSOLUTE
+    ..\..\..\Drivers\source\lpc43xx_i2c.c    0x00000000   Number         0  lpc43xx_i2c.o ABSOLUTE
+    ..\..\..\Drivers\source\lpc43xx_i2s.c    0x00000000   Number         0  lpc43xx_i2s.o ABSOLUTE
+    ..\..\..\Drivers\source\lpc43xx_nvic.c   0x00000000   Number         0  lpc43xx_nvic.o ABSOLUTE
+    ..\..\..\Drivers\source\lpc43xx_pwr.c    0x00000000   Number         0  lpc43xx_pwr.o ABSOLUTE
+    ..\..\..\Drivers\source\lpc43xx_sct.c    0x00000000   Number         0  lpc43xx_sct.o ABSOLUTE
+    ..\..\..\Drivers\source\lpc43xx_scu.c    0x00000000   Number         0  lpc43xx_scu.o ABSOLUTE
+    ..\..\..\Drivers\source\lpc43xx_ssp.c    0x00000000   Number         0  lpc43xx_ssp.o ABSOLUTE
+    ..\..\..\Drivers\source\lpc43xx_uart.c   0x00000000   Number         0  lpc43xx_uart.o ABSOLUTE
+    ..\\..\\..\\Core\\Device\\NXP\\LPC43xx\\Source\\Templates\\system_LPC43xx.c 0x00000000   Number         0  system_lpc43xx.o ABSOLUTE
+    ..\\..\\..\\Drivers\\source\\lpc43xx_adc.c 0x00000000   Number         0  lpc43xx_adc.o ABSOLUTE
+    ..\\..\\..\\Drivers\\source\\lpc43xx_cgu.c 0x00000000   Number         0  lpc43xx_cgu.o ABSOLUTE
+    ..\\..\\..\\Drivers\\source\\lpc43xx_gpio.c 0x00000000   Number         0  lpc43xx_gpio.o ABSOLUTE
+    ..\\..\\..\\Drivers\\source\\lpc43xx_i2c.c 0x00000000   Number         0  lpc43xx_i2c.o ABSOLUTE
+    ..\\..\\..\\Drivers\\source\\lpc43xx_i2s.c 0x00000000   Number         0  lpc43xx_i2s.o ABSOLUTE
+    ..\\..\\..\\Drivers\\source\\lpc43xx_nvic.c 0x00000000   Number         0  lpc43xx_nvic.o ABSOLUTE
+    ..\\..\\..\\Drivers\\source\\lpc43xx_pwr.c 0x00000000   Number         0  lpc43xx_pwr.o ABSOLUTE
+    ..\\..\\..\\Drivers\\source\\lpc43xx_sct.c 0x00000000   Number         0  lpc43xx_sct.o ABSOLUTE
+    ..\\..\\..\\Drivers\\source\\lpc43xx_scu.c 0x00000000   Number         0  lpc43xx_scu.o ABSOLUTE
+    ..\\..\\..\\Drivers\\source\\lpc43xx_ssp.c 0x00000000   Number         0  lpc43xx_ssp.o ABSOLUTE
+    ..\\..\\..\\Drivers\\source\\lpc43xx_uart.c 0x00000000   Number         0  lpc43xx_uart.o ABSOLUTE
+    ..\\main.c                               0x00000000   Number         0  main.o ABSOLUTE
+    ..\main.c                                0x00000000   Number         0  main.o ABSOLUTE
+    dc.s                                     0x00000000   Number         0  dc.o ABSOLUTE
+    handlers.s                               0x00000000   Number         0  handlers.o ABSOLUTE
+    init.s                                   0x00000000   Number         0  init.o ABSOLUTE
+    RESET                                    0x10000000   Section      276  startup_lpc43xx.o(RESET)
+    .ARM.Collect$$$$00000000                 0x10000114   Section        0  entry.o(.ARM.Collect$$$$00000000)
+    .ARM.Collect$$$$00000001                 0x10000114   Section        4  entry2.o(.ARM.Collect$$$$00000001)
+    .ARM.Collect$$$$00000004                 0x10000118   Section        4  entry5.o(.ARM.Collect$$$$00000004)
+    .ARM.Collect$$$$00000008                 0x1000011c   Section        0  entry7b.o(.ARM.Collect$$$$00000008)
+    .ARM.Collect$$$$0000000A                 0x1000011c   Section        0  entry8b.o(.ARM.Collect$$$$0000000A)
+    .ARM.Collect$$$$0000000B                 0x1000011c   Section        8  entry9a.o(.ARM.Collect$$$$0000000B)
+    .ARM.Collect$$$$0000000D                 0x10000124   Section        0  entry10a.o(.ARM.Collect$$$$0000000D)
+    .ARM.Collect$$$$0000000F                 0x10000124   Section        0  entry11a.o(.ARM.Collect$$$$0000000F)
+    .ARM.Collect$$$$00002712                 0x10000124   Section        4  entry2.o(.ARM.Collect$$$$00002712)
+    __lit__00000000                          0x10000124   Data           4  entry2.o(.ARM.Collect$$$$00002712)
+    .text                                    0x10000128   Section        0  system_lpc43xx.o(.text)
+    .text                                    0x1000015c   Section        0  lpc43xx_cgu.o(.text)
+    .text                                    0x1000076c   Section        0  lpc43xx_gpio.o(.text)
+    .text                                    0x100007d4   Section        0  lpc43xx_scu.o(.text)
+    .text                                    0x100007e8   Section       32  startup_lpc43xx.o(.text)
+    $v0                                      0x100007e8   Number         0  startup_lpc43xx.o(.text)
+    .text                                    0x10000808   Section        0  main.o(.text)
+    .text                                    0x10000940   Section       36  init.o(.text)
+    i.__scatterload_copy                     0x10000964   Section       14  handlers.o(i.__scatterload_copy)
+    i.__scatterload_null                     0x10000972   Section        2  handlers.o(i.__scatterload_null)
+    i.__scatterload_zeroinit                 0x10000974   Section       14  handlers.o(i.__scatterload_zeroinit)
+    .constdata                               0x10000982   Section     1246  lpc43xx_cgu.o(.constdata)
+    .data                                    0x10018000   Section        4  system_lpc43xx.o(.data)
+    .data                                    0x10018004   Section       68  lpc43xx_cgu.o(.data)
+    STACK                                    0x10018048   Section     2048  startup_lpc43xx.o(STACK)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THM_ISAv4$E$P$D$K$B$S$7EM$VFPi3$EXTD16$VFPS$VFMA$PE$A:L22UL41UL21$X:L11$S22US41US21$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$EBA8$MICROLIB$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    __ARM_use_no_argv                        0x00000000   Number         0  main.o ABSOLUTE
+    __cpp_initialize__aeabi_                  - Undefined Weak Reference
+    __cxa_finalize                            - Undefined Weak Reference
+    __decompress                              - Undefined Weak Reference
+    _clock_init                               - Undefined Weak Reference
+    _microlib_exit                            - Undefined Weak Reference
+    __Vectors                                0x10000000   Data           4  startup_lpc43xx.o(RESET)
+    __main                                   0x10000115   Thumb Code     0  entry.o(.ARM.Collect$$$$00000000)
+    _main_stk                                0x10000115   Thumb Code     0  entry2.o(.ARM.Collect$$$$00000001)
+    _main_scatterload                        0x10000119   Thumb Code     0  entry5.o(.ARM.Collect$$$$00000004)
+    __main_after_scatterload                 0x1000011d   Thumb Code     0  entry5.o(.ARM.Collect$$$$00000004)
+    _main_clock                              0x1000011d   Thumb Code     0  entry7b.o(.ARM.Collect$$$$00000008)
+    _main_cpp_init                           0x1000011d   Thumb Code     0  entry8b.o(.ARM.Collect$$$$0000000A)
+    _main_init                               0x1000011d   Thumb Code     0  entry9a.o(.ARM.Collect$$$$0000000B)
+    __rt_final_cpp                           0x10000125   Thumb Code     0  entry10a.o(.ARM.Collect$$$$0000000D)
+    __rt_final_exit                          0x10000125   Thumb Code     0  entry11a.o(.ARM.Collect$$$$0000000F)
+    SystemInit                               0x10000129   Thumb Code    30  system_lpc43xx.o(.text)
+    CGU_UpdateClock                          0x1000015d   Thumb Code   128  lpc43xx_cgu.o(.text)
+    CGU_EntityConnect                        0x100001dd   Thumb Code   108  lpc43xx_cgu.o(.text)
+    CGU_EnableEntity                         0x10000249   Thumb Code   220  lpc43xx_cgu.o(.text)
+    CGU_SetPLL1                              0x10000325   Thumb Code   102  lpc43xx_cgu.o(.text)
+    CGU_SetXTALOSC                           0x1000038b   Thumb Code    44  lpc43xx_cgu.o(.text)
+    CGU_Init                                 0x100003b7   Thumb Code    54  lpc43xx_cgu.o(.text)
+    CGU_GetBaseStatus                        0x100003ed   Thumb Code   142  lpc43xx_cgu.o(.text)
+    CGU_ConfigPWR                            0x1000047b   Thumb Code   320  lpc43xx_cgu.o(.text)
+    CGU_GetPCLKFrequency                     0x100005bb   Thumb Code   110  lpc43xx_cgu.o(.text)
+    CGU_SetDIV                               0x10000629   Thumb Code    50  lpc43xx_cgu.o(.text)
+    CGU_SetPLL0                              0x1000065b   Thumb Code    26  lpc43xx_cgu.o(.text)
+    CGU_SetPLL0audio                         0x10000675   Thumb Code    30  lpc43xx_cgu.o(.text)
+    CGU_FrequencyMonitor                     0x10000693   Thumb Code   116  lpc43xx_cgu.o(.text)
+    CGU_RealFrequencyCompare                 0x10000707   Thumb Code    60  lpc43xx_cgu.o(.text)
+    GPIO_SetDir                              0x1000076d   Thumb Code    26  lpc43xx_gpio.o(.text)
+    GPIO_SetValue                            0x10000787   Thumb Code    12  lpc43xx_gpio.o(.text)
+    GPIO_ClearValue                          0x10000793   Thumb Code    12  lpc43xx_gpio.o(.text)
+    GPIO_ReadValue                           0x1000079f   Thumb Code    12  lpc43xx_gpio.o(.text)
+    FIO_SetDir                               0x100007ab   Thumb Code     2  lpc43xx_gpio.o(.text)
+    FIO_SetValue                             0x100007ad   Thumb Code     2  lpc43xx_gpio.o(.text)
+    FIO_ClearValue                           0x100007af   Thumb Code     2  lpc43xx_gpio.o(.text)
+    FIO_ReadValue                            0x100007b1   Thumb Code     2  lpc43xx_gpio.o(.text)
+    FIO_SetMask                              0x100007b3   Thumb Code    30  lpc43xx_gpio.o(.text)
+    scu_pinmux                               0x100007d5   Thumb Code    16  lpc43xx_scu.o(.text)
+    Reset_Handler                            0x100007e9   Thumb Code     4  startup_lpc43xx.o(.text)
+    NMI_Handler                              0x100007ed   Thumb Code     2  startup_lpc43xx.o(.text)
+    HardFault_Handler                        0x100007ef   Thumb Code     2  startup_lpc43xx.o(.text)
+    MemManage_Handler                        0x100007f1   Thumb Code     2  startup_lpc43xx.o(.text)
+    BusFault_Handler                         0x100007f3   Thumb Code     2  startup_lpc43xx.o(.text)
+    UsageFault_Handler                       0x100007f5   Thumb Code     2  startup_lpc43xx.o(.text)
+    SVC_Handler                              0x100007f7   Thumb Code     2  startup_lpc43xx.o(.text)
+    DebugMon_Handler                         0x100007f9   Thumb Code     2  startup_lpc43xx.o(.text)
+    PendSV_Handler                           0x100007fb   Thumb Code     2  startup_lpc43xx.o(.text)
+    SysTick_Handler                          0x100007fd   Thumb Code     2  startup_lpc43xx.o(.text)
+    ADC0_IRQHandler                          0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    ADC1_IRQHandler                          0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    ATIMER_IRQHandler                        0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    CAN0_IRQHandler                          0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    CAN1_IRQHandler                          0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    DAC_IRQHandler                           0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    DMA_IRQHandler                           0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    ETH_IRQHandler                           0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    EVRT_IRQHandler                          0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    EZH_IRQHandler                           0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    FLASH_EEPROM_IRQHandler                  0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    GINT0_IRQHandler                         0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    GINT1_IRQHandler                         0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    GPIO0_IRQHandler                         0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    GPIO1_IRQHandler                         0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    GPIO2_IRQHandler                         0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    GPIO3_IRQHandler                         0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    GPIO4_IRQHandler                         0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    GPIO5_IRQHandler                         0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    GPIO6_IRQHandler                         0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    GPIO7_IRQHandler                         0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    I2C0_IRQHandler                          0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    I2C1_IRQHandler                          0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    I2S0_IRQHandler                          0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    I2S1_IRQHandler                          0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    LCD_IRQHandler                           0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    M0CORE_IRQHandler                        0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    M0s_IRQHandler                           0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    MCPWM_IRQHandler                         0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    QEI_IRQHandler                           0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    RIT_IRQHandler                           0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    RTC_IRQHandler                           0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    SCT_IRQHandler                           0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    SDIO_IRQHandler                          0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    SGPIO_IRQHandler                         0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    SPIFI_IRQHandler                         0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    SPI_IRQHandler                           0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    SSP0_IRQHandler                          0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    SSP1_IRQHandler                          0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    TIMER0_IRQHandler                        0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    TIMER1_IRQHandler                        0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    TIMER2_IRQHandler                        0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    TIMER3_IRQHandler                        0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    UART0_IRQHandler                         0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    UART1_IRQHandler                         0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    UART2_IRQHandler                         0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    UART3_IRQHandler                         0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    USB0_IRQHandler                          0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    USB1_IRQHandler                          0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    VADC_IRQHandler                          0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    WDT_IRQHandler                           0x100007ff   Thumb Code     0  startup_lpc43xx.o(.text)
+    getPC                                    0x10000805   Thumb Code     4  startup_lpc43xx.o(.text)
+    main                                     0x10000809   Thumb Code   310  main.o(.text)
+    __scatterload                            0x10000941   Thumb Code    28  init.o(.text)
+    __scatterload_rt2                        0x10000941   Thumb Code     0  init.o(.text)
+    __scatterload_copy                       0x10000965   Thumb Code    14  handlers.o(i.__scatterload_copy)
+    __scatterload_null                       0x10000973   Thumb Code     2  handlers.o(i.__scatterload_null)
+    __scatterload_zeroinit                   0x10000975   Thumb Code    14  handlers.o(i.__scatterload_zeroinit)
+    CGU_Entity_ControlReg_Offset             0x10000982   Data          90  lpc43xx_cgu.o(.constdata)
+    CGU_ConnectAlloc_Tbl                     0x100009dc   Data         765  lpc43xx_cgu.o(.constdata)
+    CGU_PERIPHERAL_Info                      0x10000cda   Data         390  lpc43xx_cgu.o(.constdata)
+    Region$$Table$$Base                      0x10000e60   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x10000e80   Number         0  anon$$obj.o(Region$$Table)
+    SystemCoreClock                          0x10018000   Data           4  system_lpc43xx.o(.data)
+    CGU_ClockSourceFrequency                 0x10018004   Data          68  lpc43xx_cgu.o(.data)
+    __initial_sp                             0x10018848   Data           0  startup_lpc43xx.o(STACK)
+
+
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x10000115
+
+  Load Region LR_IROM1 (Base: 0x10000000, Size: 0x00000ec8, Max: 0x00018000, ABSOLUTE)
+
+    Execution Region ER_IROM1 (Base: 0x10000000, Size: 0x00000e80, Max: 0x00018000, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x10000000   0x00000114   Data   RO          281    RESET               startup_lpc43xx.o
+    0x10000114   0x00000000   Code   RO          312  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
+    0x10000114   0x00000004   Code   RO          317    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
+    0x10000118   0x00000004   Code   RO          320    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
+    0x1000011c   0x00000000   Code   RO          322    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
+    0x1000011c   0x00000000   Code   RO          324    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
+    0x1000011c   0x00000008   Code   RO          325    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
+    0x10000124   0x00000000   Code   RO          327    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
+    0x10000124   0x00000000   Code   RO          329    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
+    0x10000124   0x00000004   Code   RO          318    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
+    0x10000128   0x00000034   Code   RO            2    .text               system_lpc43xx.o
+    0x1000015c   0x00000610   Code   RO           50    .text               lpc43xx_cgu.o
+    0x1000076c   0x00000068   Code   RO           83    .text               lpc43xx_gpio.o
+    0x100007d4   0x00000014   Code   RO          105    .text               lpc43xx_scu.o
+    0x100007e8   0x00000020   Code   RO          282    .text               startup_lpc43xx.o
+    0x10000808   0x00000136   Code   RO          287    .text               main.o
+    0x1000093e   0x00000002   PAD
+    0x10000940   0x00000024   Code   RO          335    .text               mc_w.l(init.o)
+    0x10000964   0x0000000e   Code   RO          339    i.__scatterload_copy  mc_w.l(handlers.o)
+    0x10000972   0x00000002   Code   RO          340    i.__scatterload_null  mc_w.l(handlers.o)
+    0x10000974   0x0000000e   Code   RO          341    i.__scatterload_zeroinit  mc_w.l(handlers.o)
+    0x10000982   0x000004de   Data   RO           51    .constdata          lpc43xx_cgu.o
+    0x10000e60   0x00000020   Data   RO          337    Region$$Table       anon$$obj.o
+
+
+    Execution Region RW_IRAM1 (Base: 0x10018000, Size: 0x00000848, Max: 0x00008000, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x10018000   0x00000004   Data   RW            3    .data               system_lpc43xx.o
+    0x10018004   0x00000044   Data   RW           52    .data               lpc43xx_cgu.o
+    0x10018048   0x00000800   Zero   RW          279    STACK               startup_lpc43xx.o
+
+
+==============================================================================
+
+Image component sizes
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+
+      1552        118       1246         68          0      12681   lpc43xx_cgu.o
+       104          4          0          0          0       2340   lpc43xx_gpio.o
+        20          4          0          0          0       1213   lpc43xx_scu.o
+       310          0          0          0          0        655   main.o
+        32          4        276          0       2048       1020   startup_lpc43xx.o
+        52         22          0          4          0       5399   system_lpc43xx.o
+
+    ----------------------------------------------------------------------
+      2072        152       1554         72       2048      23308   Object Totals
+         0          0         32          0          0          0   (incl. Generated)
+         2          0          0          0          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Member Name
+
+         0          0          0          0          0          0   entry.o
+         0          0          0          0          0          0   entry10a.o
+         0          0          0          0          0          0   entry11a.o
+         8          4          0          0          0          0   entry2.o
+         4          0          0          0          0          0   entry5.o
+         0          0          0          0          0          0   entry7b.o
+         0          0          0          0          0          0   entry8b.o
+         8          4          0          0          0          0   entry9a.o
+        30          0          0          0          0          0   handlers.o
+        36          8          0          0          0         68   init.o
+
+    ----------------------------------------------------------------------
+        86         16          0          0          0         68   Library Totals
+         0          0          0          0          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Name
+
+        86         16          0          0          0         68   mc_w.l
+
+    ----------------------------------------------------------------------
+        86         16          0          0          0         68   Library Totals
+
+    ----------------------------------------------------------------------
+
+==============================================================================
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
+
+      2158        168       1554         72       2048      22980   Grand Totals
+      2158        168       1554         72       2048      22980   ELF Image Totals
+      2158        168       1554         72          0          0   ROM Totals
+
+==============================================================================
+
+    Total RO  Size (Code + RO Data)                 3712 (   3.63kB)
+    Total RW  Size (RW Data + ZI Data)              2120 (   2.07kB)
+    Total ROM Size (Code + RO Data + RW Data)       3784 (   3.70kB)
+
+==============================================================================
+

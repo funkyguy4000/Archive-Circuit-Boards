@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<flash_device>
+  <exe>$PROJ_DIR$\..\..\..\Linker\EWARM\lpc_4350_db1_flashloader.out</exe>
+  <page>1024</page>
+  <block>32 0x10000</block>
+  <block>2 0x2000</block>
+  <block>1 0x4000</block>
+  <flash_base>0x1C000000</flash_base>
+  <macro>$PROJ_DIR$\..\..\..\Linker\EWARM\lpc_4350_db1.mac</macro>
+  <aggregate>1</aggregate>
+</flash_device>

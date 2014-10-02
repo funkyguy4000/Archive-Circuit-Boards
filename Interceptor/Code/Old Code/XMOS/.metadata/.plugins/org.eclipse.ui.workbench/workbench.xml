@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="31" version="2.0">
+<workbenchAdvisor/>
+<window height="768" maximized="true" width="1024" x="175" y="92">
+<fastViewData fastViewLocation="1024">
+<orientation position="512" view="com.xmos.devcolumn.ui.views.devcolumn.DevColumn"/>
+</fastViewData>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout locked="0">
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="92" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="com.xmos.cdt.ui.edit.actions" itemType="typeToolBarContribution" x="99" y="22"/>
+<coolItem id="org.eclipse.cdt.ui.buildConfigActionSet" itemType="typeToolBarContribution" x="52" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="167" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="91" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.xmos.cdt.ui.XCEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1384297971188" focus="true" label="Workspace - XMOS Edit">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="0">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor focus="true" id="com.xmos.cdt.ui.XCEditor" name="main.xc" partName="main.xc" path="C:/Users/ShannonS/Dropbox/Strutz Electronic Industres Resources/Projects/Custom/Main Projects/Audio Analysis Board/Programming/XMOS/Interceptor/src/main.xc" title="main.xc" tooltip="Interceptor/src/main.xc" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Interceptor/src/main.xc"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="311" selectionTopPixel="0"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" CommonNavigator.LINKING_ENABLED.delayed="0" org.eclipse.cdt.ui.cview.groupincludes="false" org.eclipse.cdt.ui.cview.groupmacros="false" org.eclipse.cdt.ui.editor.CUChildren="true" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="com.xmos.devcolumn.ui.views.devcolumn.DevColumn" partName="Developer Column">
+<viewState/>
+</view>
+<view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Target">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<columnWidths org.eclipse.ui.ide.locationField="64" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="124" org.eclipse.ui.ide.resourceField="94" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="com.xmos.xsoftip.ui.views.xsoftip.XSoftIPView" partName="xSOFTip Browser">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="com.xmos.devcolumn.ui.views.devcolumn.DevColumn" activePerspective="com.xmos.cdt.ui.XdeEditPerspective">
+<perspective editorAreaTrimState="4" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.xmos.cdt.ui.XdeEditPerspective" id="com.xmos.cdt.ui.XdeEditPerspective" label="XMOS Edit"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="com.xmos.cdt.ui.edit.actions"/>
+<alwaysOnActionSet id="org.eclipse.ui.dz_com.xmos.cdt.launch.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.buildConfigActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="com.xmos.devcolumn.ui.views.devcolumn.DevColumn"/>
+<show_view_action id="com.xmos.cdt.ui.views.binary.Binary"/>
+<show_view_action id="com.xmos.xvcd.views.signals.Signals"/>
+<show_view_action id="com.xmos.xvcd.views.waves.Waves"/>
+<show_view_action id="com.xmos.xprobe.ui.views.xprobe.XProbe"/>
+<show_view_action id="com.xmos.xscope.ui.views.xscope.XScope"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.cdt.make.ui.views.MakeView"/>
+<new_wizard_action id="com.xmos.cdt.ui.xdeproject.XdeProjectWizard"/>
+<new_wizard_action id="com.xmos.cdt.ui.xdeprojectlegacy.XdeProjectLegacyWizard"/>
+<new_wizard_action id="com.xmos.cdt.ui.xdeprojectxsoftip.XdeProjectXSoftIPWizard"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewSourceFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewHeaderFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewFolderCreationWizard"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="com.xmos.xta.ui.XtaPerspective"/>
+<perspective_action id="com.xmos.cdt.ui.XSoftIPExplorerPerspective"/>
+<hide_menu_item_id id="org.eclipse.ui.internal.ide.actions.BuildSetMenu"/>
+<hide_menu_item_id id="org.eclipse.equinox.p2.ui.sdk.update"/>
+<hide_menu_item_id id="org.eclipse.cdt.ui.prjmenu"/>
+<hide_toolbar_item_id id="org.eclipse.ui.workbench.navigate"/>
+<hide_toolbar_item_id id="org.eclipse.ui.file.print"/>
+<hide_toolbar_item_id id="org.eclipse.search.searchActionSet"/>
+<hide_toolbar_item_id id="newWizardDropDown"/>
+<hide_toolbar_item_id id="org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<hide_toolbar_item_id id="org.eclipse.cdt.ui.buildConfigToolbarAction"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.cdt.make.ui.views.MakeView"/>
+<view id="com.xmos.devcolumn.ui.views.devcolumn.DevColumn"/>
+<fastViewBars>
+<fastViewBar fastViewLocation="16384" id="bottomLeft" orientation="512" selectedTabId="com.xmos.xsoftip.ui.views.xsoftip.XSoftIPView" style="0">
+<fastViews>
+<view id="com.xmos.xsoftip.ui.views.xsoftip.XSoftIPView" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="16384" id="topLeft" orientation="512" selectedTabId="org.eclipse.ui.navigator.ProjectExplorer" style="0">
+<fastViews>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="131072" id="bottom" orientation="256" selectedTabId="org.eclipse.ui.views.ProblemView" style="1">
+<fastViews>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.3"/>
+<view id="org.eclipse.ui.views.ProblemView" ratio="0.3"/>
+<view id="org.eclipse.ui.views.TaskList" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
+<layout>
+<mainWindow maximized="topRight">
+<info folder="true" part="topLeft">
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<page content="com.xmos.xvcd.views.signals.Signals" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@164ac1d" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.20516048" ratioLeft="326" ratioRight="1263" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottom" ratio="0.69860893" ratioLeft="452" ratioRight="195" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
+<page content="com.xmos.cdt.ui.views.binary.Binary" label="LabelNotFound"/>
+<page content="com.xmos.xvcd.views.waves.Waves" label="LabelNotFound"/>
+<page content="com.xmos.xprobe.ui.views.xprobe.XProbe" label="LabelNotFound"/>
+<page content="com.xmos.xscope.ui.views.xscope.XScope" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.egit.ui.RepositoriesView" ratio="0.5" ratioLeft="390" ratioRight="390" relationship="2" relative="bottom"/>
+<info folder="true" part="topRight" ratio="0.30217668" ratioLeft="472" ratioRight="1090" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="com.xmos.devcolumn.ui.views.devcolumn.DevColumn" appearance="2" expanded="1">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.cdt.make.ui.views.MakeView" label="Make Target"/>
+<page content="com.xmos.devcolumn.ui.views.devcolumn.DevColumn" label="Developer Column"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="2"/>
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="bottomLeft" ratio="0.7194149" ratioLeft="541" ratioRight="211" relationship="4" relative="topLeft">
+<folder appearance="2" expanded="0">
+<page content="com.xmos.xsoftip.ui.views.xsoftip.XSoftIPView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/module_fft_simple/src/fft.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xmos.cdt.ui.XCEditor" path="/module_fft_simple/src/main.xc"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xmos.cdt.ui.XCEditor" path="/Interceptor/src/Interceptor.xc"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xmos.cdt.ui.XCEditor" path="/Interceptor/src/main.xc"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xmos.cdt.ui.XCEditor" path="/Interceptor/src/sine.xc"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/module_i2s_master/i2s_master_conf_example.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/Interceptor/src/i2s.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xmos.cdt.ui.XCEditor" path="/module_i2s_master/src/i2s_master.xc"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/module_i2s_master/src/i2s_master.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/module_i2s_master/i2s_master_conf_example.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/module_i2s_master/README.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/module_i2s_master/src/i2s_master.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xmos.cdt.ui.XCEditor" path="/Interceptor/src/main.xc"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xmos.cdt.ui.XCEditor" path="/Interceptor/src/sine.xc"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/module_i2s_master/i2s_master_conf_example.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/module_i2s_master/src/i2s_master.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xmos.cdt.ui.XCEditor" path="/module_i2s_master/src/i2s_master.xc"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xmos.cdt.ui.XCEditor" path="/Interceptor/src/main.xc"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/Interceptor/src/i2s.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xmos.cdt.ui.XCEditor" path="/Interceptor/src/i2s_master.xc"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Interceptor/src/i2s_master.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xmos.cdt.ui.XCEditor" path="/Interceptor/src/main.xc"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.systemInPlaceEditor" uri="file:/C:/Users/ShannonS/Dropbox/Strutz%20Electronic%20Industres%20Resources/Projects/Custom/Main%20Projects/Audio%20Analysis%20Board/Programming/XMOS/Programming-XC-on-XMOS-Devices(X9577A).pdf"/>
+</editors>
+<item historyLabel="fft.h" index="0">
+<position info="not_deleted" x="63" y="0"/>
+</item>
+<item historyLabel="main.xc" index="1">
+<position info="not_deleted" x="36" y="0"/>
+</item>
+<item historyLabel="main.xc" index="1">
+<position info="not_deleted" x="36" y="0"/>
+</item>
+<item historyLabel="Interceptor.xc" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="main.xc" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="main.xc" index="3">
+<position info="not_deleted" x="1885" y="0"/>
+</item>
+<item historyLabel="main.xc" index="3">
+<position info="not_deleted" x="446" y="0"/>
+</item>
+<item historyLabel="main.xc" index="3">
+<position info="not_deleted" x="350" y="0"/>
+</item>
+<item historyLabel="main.xc" index="3">
+<position info="not_deleted" x="1114" y="0"/>
+</item>
+<item historyLabel="sine.xc" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="main.xc" index="3">
+<position info="not_deleted" x="1114" y="0"/>
+</item>
+<item historyLabel="i2s_master_conf_example.h" index="5">
+<position info="not_deleted" x="51" y="82"/>
+</item>
+<item historyLabel="i2s.h" index="6">
+<position info="not_deleted" x="121" y="0"/>
+</item>
+<item historyLabel="i2s_master_conf_example.h" index="5">
+<position info="not_deleted" x="269" y="0"/>
+</item>
+<item historyLabel="i2s.h" index="6">
+<position info="not_deleted" x="56" y="0"/>
+</item>
+<item historyLabel="i2s_master_conf_example.h" index="5">
+<position info="not_deleted" x="134" y="0"/>
+</item>
+<item historyLabel="i2s.h" index="6">
+<position info="not_deleted" x="125" y="0"/>
+</item>
+<item historyLabel="main.xc" index="3">
+<position info="not_deleted" x="460" y="0"/>
+</item>
+<item historyLabel="i2s.h" index="6">
+<position info="not_deleted" x="125" y="0"/>
+</item>
+<item historyLabel="i2s_master.xc" index="7">
+<position info="not_deleted" x="302" y="0"/>
+</item>
+<item historyLabel="i2s_master.h" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="i2s_master.h" index="8">
+<position info="not_deleted" x="504" y="0"/>
+</item>
+<item historyLabel="i2s_master.xc" index="7">
+<position info="not_deleted" x="302" y="0"/>
+</item>
+<item historyLabel="i2s_master_conf_example.h" index="9">
+<position info="not_deleted" x="134" y="0"/>
+</item>
+<item historyLabel="i2s_master.xc" index="7">
+<position info="not_deleted" x="965" y="0"/>
+</item>
+<item historyLabel="README.txt" index="10">
+<position info="not_deleted" x="216" y="0"/>
+</item>
+<item historyLabel="i2s_master.xc" index="7">
+<position info="not_deleted" x="965" y="0"/>
+</item>
+<item historyLabel="i2s_master.h" index="11">
+<position info="not_deleted" x="1879" y="0"/>
+</item>
+<item historyLabel="i2s_master.xc" index="7">
+<position info="not_deleted" x="359" y="0"/>
+</item>
+<item historyLabel="main.xc" index="12">
+<position info="not_deleted" x="460" y="0"/>
+</item>
+<item historyLabel="i2s_master.xc" index="7">
+<position info="not_deleted" x="359" y="0"/>
+</item>
+<item historyLabel="sine.xc" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="README.txt" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="i2s_master_conf_example.h" index="14">
+<position info="not_deleted" x="134" y="0"/>
+</item>
+<item historyLabel="i2s_master.h" index="15">
+<position info="not_deleted" x="1879" y="0"/>
+</item>
+<item historyLabel="i2s_master.xc" index="16">
+<position info="not_deleted" x="359" y="0"/>
+</item>
+<item historyLabel="i2s_master.h" index="15">
+<position info="not_deleted" x="610" y="0"/>
+</item>
+<item historyLabel="i2s_master.xc" index="16">
+<position info="not_deleted" x="359" y="0"/>
+</item>
+<item historyLabel="main.xc" index="17">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="i2s.h" index="18">
+<position info="not_deleted" x="125" y="0"/>
+</item>
+<item historyLabel="main.xc" index="17">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="i2s.h" index="18">
+<position info="not_deleted" x="125" y="0"/>
+</item>
+<item historyLabel="i2s_master.xc" index="19">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="i2s_master.h" index="20">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="i2s.h" index="18">
+<position info="not_deleted" x="125" y="0"/>
+</item>
+<item historyLabel="main.xc" index="21">
+<position info="not_deleted" x="291" y="0"/>
+</item>
+<item historyLabel="Programming-XC-on-XMOS-Devices(X9577A).pdf" index="22"/>
+<item historyLabel="main.xc" index="21">
+<position info="not_deleted" x="633" y="0"/>
+</item>
+<item historyLabel="Programming-XC-on-XMOS-Devices(X9577A).pdf" index="22"/>
+<item active="true" historyLabel="main.xc" index="21">
+<position info="not_deleted" x="633" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="topLeft"/>
+<trimItem IMemento.internal.id="bottomLeft"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
+<trimItem IMemento.internal.id="bottom"/>
+</trimArea>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.systemInPlaceEditor" name="Programming-XC-on-XMOS-Devices(X9577A).pdf" tooltip="C:\Users\ShannonS\Dropbox\Strutz Electronic Industres Resources\Projects\Custom\Main Projects\Audio Analysis Board\Programming\XMOS\Programming-XC-on-XMOS-Devices(X9577A).pdf">
+<persistable uri="file:/C:/Users/ShannonS/Dropbox/Strutz%20Electronic%20Industres%20Resources/Projects/Custom/Main%20Projects/Audio%20Analysis%20Board/Programming/XMOS/Programming-XC-on-XMOS-Devices(X9577A).pdf"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xmos.cdt.ui.XCEditor" name="main.xc" tooltip="Interceptor/src/main.xc">
+<persistable path="/Interceptor/src/main.xc"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="i2s_master.h" tooltip="Interceptor/src/i2s_master.h">
+<persistable path="/Interceptor/src/i2s_master.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xmos.cdt.ui.XCEditor" name="i2s_master.xc" tooltip="Interceptor/src/i2s_master.xc">
+<persistable path="/Interceptor/src/i2s_master.xc"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="README.txt" tooltip="module_i2s_master/README.txt">
+<persistable path="/module_i2s_master/README.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="i2s_master.h" tooltip="module_i2s_master/src/i2s_master.h">
+<persistable path="/module_i2s_master/src/i2s_master.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xmos.cdt.ui.XCEditor" name="i2s_master.xc" tooltip="module_i2s_master/src/i2s_master.xc">
+<persistable path="/module_i2s_master/src/i2s_master.xc"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="i2s.h" tooltip="Interceptor/src/i2s.h">
+<persistable path="/Interceptor/src/i2s.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="i2s_master_conf_example.h" tooltip="module_i2s_master/i2s_master_conf_example.h">
+<persistable path="/module_i2s_master/i2s_master_conf_example.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xmos.cdt.ui.XCEditor" name="sine.xc" tooltip="Interceptor/src/sine.xc">
+<persistable path="/Interceptor/src/sine.xc"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xmos.cdt.ui.XCEditor" name="Interceptor.xc" tooltip="Interceptor/src/Interceptor.xc">
+<persistable path="/Interceptor/src/Interceptor.xc"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xmos.cdt.ui.XCEditor" name="main.xc" tooltip="module_fft_simple/src/main.xc">
+<persistable path="/module_fft_simple/src/main.xc"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="sine.h" tooltip="module_fft_simple/src/sine.h">
+<persistable path="/module_fft_simple/src/sine.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="fftreal.h" tooltip="module_fft_simple/src/fftreal.h">
+<persistable path="/module_fft_simple/src/fftreal.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="fftcomplex.h" tooltip="module_fft_simple/src/fftcomplex.h">
+<persistable path="/module_fft_simple/src/fftcomplex.h"/>
+</file>
+</mruList>
+</workbench>

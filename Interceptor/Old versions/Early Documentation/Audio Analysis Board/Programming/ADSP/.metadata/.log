@@ -1,0 +1,30 @@
+!SESSION 2013-11-11 16:59:58.734 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_39
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-11-11 17:06:51.390
+!MESSAGE Indexed 'First' (1 sources, 27 headers) in 0.61 sec: 618 declarations; 690 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.08%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-11-11 17:06:52.275
+!MESSAGE Indexed 'First' (2 sources, 32 headers) in 0.53 sec: 649 declarations; 818 references; 2 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+!SESSION 2013-11-11 17:44:49.757 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_39
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-11-11 17:51:26.858
+!MESSAGE Indexed 'example' (0 sources, 26 headers) in 0.59 sec: 616 declarations; 689 references; 2 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-11-11 17:51:27.561
+!MESSAGE Indexed 'example' (2 sources, 32 headers) in 0.36 sec: 649 declarations; 818 references; 2 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.help.base 4 0 2013-11-11 17:55:06.921
+!MESSAGE Help index declared, but missing for plugin com.analog.crosscore.help.abridged.lib.
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-11-11 17:55:41.864
+!MESSAGE Indexed '512_Point_FFT' (4 sources, 42 headers) in 0.48 sec: 1,032 declarations; 1,192 references; 2 unresolved inclusions; 0 syntax errors; 2 unresolved names (0.09%)

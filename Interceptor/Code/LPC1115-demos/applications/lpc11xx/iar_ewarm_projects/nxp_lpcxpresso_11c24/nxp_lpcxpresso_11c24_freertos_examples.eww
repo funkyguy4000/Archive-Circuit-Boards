@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\freertos\freertos_blinky\freertos_blinky.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\..\..\..\..\software\lpc_core\lpc_board\boards_11xx\nxp_lpcxpresso_11c24\lib_lpc_board_nxp_lpcxpresso_11c24.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\..\..\..\..\software\lpc_core\lpc_chip\chip_11xx\lib_lpc_chip_11cxx.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>All_libs_and_Examples</name>
+      <member>
+        <project>lib_lpc_chip_11cxx</project>
+        <configuration>chip_11cxx_lib</configuration>
+      </member>
+      <member>
+        <project>lib_lpc_board_nxp_lpcxpresso_11c24</project>
+        <configuration>nxp_lpcxpresso_11c24</configuration>
+      </member>
+      <member>
+        <project>freertos_blinky</project>
+        <configuration>iflash_nxp_lpcxpresso_11c24</configuration>
+      </member>
+    </batchDefinition>
+    <batchDefinition>
+      <name>all_libs</name>
+      <member>
+        <project>lib_lpc_chip_11cxx</project>
+        <configuration>chip_11cxx_lib</configuration>
+      </member>
+      <member>
+        <project>lib_lpc_board_nxp_lpcxpresso_11c24</project>
+        <configuration>nxp_lpcxpresso_11c24</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+

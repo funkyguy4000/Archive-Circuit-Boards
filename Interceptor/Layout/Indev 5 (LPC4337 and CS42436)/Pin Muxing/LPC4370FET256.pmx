@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PinMuxDesign>
+    <Chip>LPC4370FET256</Chip>
+    <Peripheral Name="GPIO5">
+        <Signals BallNumber="255" Signal="GPIO5[0]"/>
+        <Signals BallNumber="206" Signal="GPIO5[1]"/>
+        <Signals BallNumber="190" Signal="GPIO5[2]"/>
+        <Signals BallNumber="157" Signal="GPIO5[5]"/>
+        <Signals BallNumber="159" Signal="GPIO5[6]"/>
+        <Signals BallNumber="106" Signal="GPIO5[8]"/>
+        <Signals BallNumber="90" Signal="GPIO5[9]"/>
+        <Signals BallNumber="65" Signal="GPIO5[12]"/>
+        <Signals BallNumber="161" Signal="GPIO5[13]"/>
+        <Signals BallNumber="178" Signal="GPIO5[14]"/>
+        <Signals BallNumber="140" Signal="GPIO5[15]"/>
+        <Signals BallNumber="124" Signal="GPIO5[16]"/>
+        <Signals BallNumber="201" Signal="GPIO5[17]"/>
+        <Signals BallNumber="184" Signal="GPIO5[18]"/>
+        <Signals BallNumber="108" Signal="GPIO5[19]"/>
+        <Signals BallNumber="30" Signal="GPIO5[20]"/>
+        <Signals BallNumber="13" Signal="GPIO5[21]"/>
+        <Signals BallNumber="27" Signal="GPIO5[22]"/>
+        <Signals BallNumber="12" Signal="GPIO5[23]"/>
+        <Signals BallNumber="26" Signal="GPIO5[24]"/>
+        <Signals BallNumber="11" Signal="GPIO5[25]"/>
+        <Signals BallNumber="5" Signal="GPIO5[26]"/>
+    </Peripheral>
+    <Peripheral Name="GPIO6">
+        <Signals BallNumber="67" Signal="GPIO6[0]"/>
+        <Signals BallNumber="85" Signal="GPIO6[1]"/>
+        <Signals BallNumber="84" Signal="GPIO6[2]"/>
+        <Signals BallNumber="83" Signal="GPIO6[3]"/>
+        <Signals BallNumber="99" Signal="GPIO6[4]"/>
+        <Signals BallNumber="117" Signal="GPIO6[5]"/>
+        <Signals BallNumber="100" Signal="GPIO6[6]"/>
+        <Signals BallNumber="195" Signal="GPIO6[7]"/>
+        <Signals BallNumber="145" Signal="GPIO6[8]"/>
+        <Signals BallNumber="180" Signal="GPIO6[9]"/>
+        <Signals BallNumber="164" Signal="GPIO6[10]"/>
+        <Signals BallNumber="165" Signal="GPIO6[11]"/>
+        <Signals BallNumber="176" Signal="GPIO6[12]"/>
+        <Signals BallNumber="192" Signal="GPIO6[13]"/>
+        <Signals BallNumber="254" Signal="GPIO6[29]"/>
+        <Signals BallNumber="237" Signal="GPIO6[30]"/>
+    </Peripheral>
+    <Peripheral Name="GPIO7">
+        <Signals BallNumber="221" Signal="GPIO7[0]"/>
+        <Signals BallNumber="205" Signal="GPIO7[1]"/>
+        <Signals BallNumber="189" Signal="GPIO7[2]"/>
+        <Signals BallNumber="155" Signal="GPIO7[3]"/>
+        <Signals BallNumber="156" Signal="GPIO7[4]"/>
+        <Signals BallNumber="74" Signal="GPIO7[16]"/>
+        <Signals BallNumber="58" Signal="GPIO7[17]"/>
+        <Signals BallNumber="73" Signal="GPIO7[18]"/>
+        <Signals BallNumber="72" Signal="GPIO7[19]"/>
+        <Signals BallNumber="70" Signal="GPIO7[20]"/>
+        <Signals BallNumber="22" Signal="GPIO7[21]"/>
+        <Signals BallNumber="69" Signal="GPIO7[22]"/>
+        <Signals BallNumber="53" Signal="GPIO7[23]"/>
+        <Signals BallNumber="2" Signal="GPIO7[24]"/>
+        <Signals BallNumber="1" Signal="GPIO7[25]"/>
+    </Peripheral>
+    <Peripheral Name="I2C0">
+        <Signals BallNumber="174" Signal="I2C0_SCL"/>
+        <Signals BallNumber="175" Signal="I2C0_SDA"/>
+    </Peripheral>
+    <Peripheral Name="I2S1">
+        <Signals BallNumber="171" Signal="I2S1_RX_MCLK"/>
+        <Signals BallNumber="61" Signal="I2S1_RX_SCK"/>
+        <Signals BallNumber="14" Signal="I2S1_RX_SDA"/>
+        <Signals BallNumber="43" Signal="I2S1_RX_WS"/>
+        <Signals BallNumber="160" Signal="I2S1_TX_MCLK"/>
+        <Signals BallNumber="186" Signal="I2S1_TX_SCK"/>
+        <Signals BallNumber="177" Signal="I2S1_TX_SDA"/>
+        <Signals BallNumber="162" Signal="I2S1_TX_WS"/>
+    </Peripheral>
+    <Peripheral Name="JTAG">
+        <Signals BallNumber="132" Signal="TCK/SWDCLK"/>
+        <Signals BallNumber="131" Signal="TDI"/>
+        <Signals BallNumber="148" Signal="TDO/SWO"/>
+        <Signals BallNumber="149" Signal="TMS/SWDIO"/>
+        <Signals BallNumber="179" Signal="TRST"/>
+    </Peripheral>
+    <Peripheral Name="RTC">
+        <Signals BallNumber="10" Signal="RTC_ALARM"/>
+        <Signals BallNumber="7" Signal="RTCX1"/>
+        <Signals BallNumber="23" Signal="RTCX2"/>
+    </Peripheral>
+    <Peripheral Name="SGPIO">
+        <Signals BallNumber="225" Signal="SGPIO8"/>
+        <Signals BallNumber="226" Signal="SGPIO9"/>
+        <Signals BallNumber="212" Signal="SGPIO10"/>
+        <Signals BallNumber="242" Signal="SGPIO11"/>
+        <Signals BallNumber="203" Signal="SGPIO12"/>
+        <Signals BallNumber="185" Signal="SGPIO13"/>
+        <Signals BallNumber="243" Signal="SGPIO14"/>
+        <Signals BallNumber="228" Signal="SGPIO15"/>
+    </Peripheral>
+    <Peripheral Name="SPI">
+        <Signals BallNumber="28" Signal="SPI_MISO"/>
+        <Signals BallNumber="42" Signal="SPI_MOSI"/>
+        <Signals BallNumber="29" Signal="SPI_SCK"/>
+        <Signals BallNumber="41" Signal="SPI_SSEL"/>
+    </Peripheral>
+    <Peripheral Name="USART3">
+        <Signals BallNumber="127" Signal="U3_BAUD"/>
+        <Signals BallNumber="143" Signal="U3_DIR"/>
+        <Signals BallNumber="154" Signal="U3_RXD"/>
+        <Signals BallNumber="139" Signal="U3_TXD"/>
+        <Signals BallNumber="125" Signal="U3_UCLK"/>
+    </Peripheral>
+    <Peripheral Name="WAKEUP">
+        <Signals BallNumber="8" Signal="WAKEUP0"/>
+        <Signals BallNumber="9" Signal="WAKEUP1"/>
+        <Signals BallNumber="40" Signal="WAKEUP2"/>
+        <Signals BallNumber="55" Signal="WAKEUP3"/>
+    </Peripheral>
+</PinMuxDesign>

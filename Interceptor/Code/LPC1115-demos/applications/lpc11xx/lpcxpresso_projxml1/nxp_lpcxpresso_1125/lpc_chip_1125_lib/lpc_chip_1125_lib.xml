@@ -1,0 +1,451 @@
+<!-- ************************************************************
+	 Code Red IDE script file for use in creating a library
+	 project for a particular MCU range from the code provided
+	 in the NXP Sample Software Suite.
+
+	 This script is in a format suitable for use with the
+	 'Import Project(s) from XML Description' of the Code Red IDE.
+     *********************************************************** -->
+
+<project xmlns:xi="http://www.w3.org/2001/XInclude"
+	type="Static library" name="lpc_chip_1125_lib"
+	chip="LPC1125" vendor="NXP">
+
+<script>
+
+	<!-- Copy required lpc8xx files into created project -->
+	<if test="11xx==8xx">
+		<import src="../../../../../software/lpc_core/lpc_chip/chip_11xx" dest="inc">
+			<include>*.h</include>
+		</import>
+    
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_11xx" dest="src">
+            <include>*.c</include>
+        </import>
+        
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_common" dest="inc">
+		    <include>lpc_types.h</include>
+		    <include>ring_buffer.h</include>
+	    </import>
+		
+	    <import src="../../../../../software/lpc_core/lpc_chip/chip_common" dest="src">
+		    <include>ring_buffer.c</include>
+	    </import>
+
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_11xx/config" dest="inc">
+       		<include>*.h</include>
+       	</import>
+    </if>
+	
+    <!-- Copy required lpc11xx common files into created project -->
+    <if test="11xx==11xx">
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_common" dest="inc">
+		    <include>lpc_types.h</include>
+		    <include>ring_buffer.h</include>
+		    <include>error.h</include>
+	    </import>
+
+	    <import src="../../../../../software/lpc_core/lpc_chip/chip_common" dest="src">
+		    <include>ring_buffer.c</include>
+	    </import>
+		
+		<import src="../../../../../software/lpc_core/lpc_chip/chip_11xx/config_1125" dest="inc">
+       		<include>*.h</include>
+       	</import>
+    </if>
+    
+	<!-- Copy required lpc110x specific files into created project -->
+    <if test="1125==110x">
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_11xx" dest="inc">
+            <include>*.h</include>
+            <exclude>acmp_11xx.h</exclude>
+            <exclude>ccand_11xx.h</exclude>
+            <exclude>dac_11xx.h</exclude>
+            <exclude>gpio_11xx_1.h</exclude>
+            <exclude>i2c_11xx.h</exclude>
+            <exclude>usbd_11xx.h</exclude>
+            <exclude>adc_1125.h</exclude>
+        </import>
+    
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_11xx" dest="src">
+            <include>*.c</include>
+            <exclude>acmp_11xx.c</exclude>
+            <exclude>dac_11xx.c</exclude>
+            <exclude>i2c_11xx.c</exclude>
+        </import>
+    </if>
+    
+	<!-- Copy required lpc11xxlv specific files into created project -->
+    <if test="1125==11xxlv">
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_11xx" dest="inc">
+            <include>*.h</include>
+            <exclude>acmp_11xx.h</exclude>
+            <exclude>ccand_11xx.h</exclude>
+            <exclude>dac_11xx.h</exclude>
+            <exclude>gpio_11xx_1.h</exclude>
+            <exclude>usbd_11xx.h</exclude>
+            <exclude>adc_1125.h</exclude>
+        </import>
+    
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_11xx" dest="src">
+            <include>*.c</include>
+            <exclude>acmp_11xx.c</exclude>
+            <exclude>dac_11xx.c</exclude>
+        </import>
+    </if>
+	
+	<!-- Copy required lpc11cxx specific files into created project -->
+    <if test="1125==11cxx">
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_11xx" dest="inc">
+            <include>*.h</include>
+            <exclude>acmp_11xx.h</exclude>
+            <exclude>dac_11xx.h</exclude>
+            <exclude>gpio_11xx_1.h</exclude>
+            <exclude>usbd_11xx.h</exclude>
+            <exclude>adc_1125.h</exclude>
+        </import>
+    
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_11xx" dest="src">
+            <include>*.c</include>
+            <exclude>acmp_11xx.c</exclude>
+            <exclude>dac_11xx.c</exclude>
+        </import>
+    </if>
+    
+	<!-- Copy required lpc11uxx specific files into created project -->
+    <if test="1125==11uxx">
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_11xx" dest="inc">
+            <include>*.h</include>
+            <exclude>acmp_11xx.h</exclude>
+            <exclude>ccand_11xx.h</exclude>
+            <exclude>dac_11xx.h</exclude>
+            <exclude>gpio_11xx_2.h</exclude>
+            <exclude>adc_1125.h</exclude>
+        </import>
+    
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_11xx" dest="src">
+            <include>*.c</include>
+            <exclude>acmp_11xx.c</exclude>
+            <exclude>dac_11xx.c</exclude>
+        </import>
+
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_11xx/usbd_lib/lpcxpresso" dest="libs">
+		<include>*.a</include>
+		</import>
+
+		<import src="../../../../../software/lpc_core/lpc_chip/usbd_rom" dest="inc/usbd">
+		<include>*.h</include>
+		</import>
+    </if>
+	
+    <!-- Copy required lpc11exx specific files into created project -->
+    <if test="1125==11exx">
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_11xx" dest="inc">
+            <include>*.h</include>
+            <exclude>acmp_11xx.h</exclude>
+            <exclude>ccand_11xx.h</exclude>
+            <exclude>dac_11xx.h</exclude>
+            <exclude>gpio_11xx_2.h</exclude>
+            <exclude>usbd_11xx.h</exclude>
+            <exclude>adc_1125.h</exclude>
+        </import>
+    
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_11xx" dest="src">
+            <include>*.c</include>
+            <exclude>acmp_11xx.c</exclude>
+            <exclude>dac_11xx.c</exclude>
+        </import>
+    </if>
+    
+    <!-- Copy required lpc11axx specific files into created project -->
+    <if test="1125==11axx">
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_11xx" dest="inc">
+            <include>*.h</include>
+            <exclude>ccand_11xx.h</exclude>
+            <exclude>gpio_11xx_2.h</exclude>
+            <exclude>usbd_11xx.h</exclude>
+            <exclude>adc_1125.h</exclude>
+        </import>
+    
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_11xx" dest="src">
+            <include>*.c</include>
+        </import>
+    </if>
+    
+    <!-- Copy required lpc11axx specific files into created project -->
+    <if test="1125==1125">
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_11xx" dest="inc">
+            <include>*.h</include>
+            <exclude>adc_11xx.h</exclude>
+        </import>
+    
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_11xx" dest="src">
+            <include>*.c</include>
+        </import>
+    </if>
+
+    <!-- Copy required lpc13xx common files into created project -->
+    <if test="11xx==13xx">
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_common" dest="inc">
+		    <include>lpc_types.h</include>
+		    <include>ring_buffer.h</include>
+	    </import>
+
+	    <import src="../../../../../software/lpc_core/lpc_chip/chip_common" dest="src">
+		    <include>ring_buffer.c</include>
+	    </import>
+    </if>
+    
+    <!-- Copy required lpc1343 specific files into created project -->
+    <if test="1125==1343">
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_11xx" dest="inc">
+            <include>*.h</include>
+            <exclude>ritimer_13xx.h</exclude>
+            <exclude>flash_13xx.h</exclude>
+            <exclude>usbd_13xx.h</exclude>
+            <exclude>gpio_13xx_1.h</exclude>
+        </import>
+    
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_11xx" dest="src">
+            <include>*.c</include>
+		    <exclude>ritimer_13xx.c</exclude>
+            <exclude>flash_13xx.c</exclude>
+        </import>
+
+		<import src="../../../../../software/lpc_core/lpc_board/boards_11xx/nxp_lpcxpresso_1125" dest="inc">
+			<include>sys_config.h</include>
+		</import>
+    </if>
+    
+    <!-- Copy required lpc1347 specific files into created project -->
+    <if test="1125==1347">
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_11xx" dest="inc">
+            <include>*.h</include>
+            <exclude>gpio_13xx_2.h</exclude>
+        </import>
+    
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_11xx" dest="src">
+            <include>*.c</include>
+        </import>
+
+		<import src="../../../../../software/lpc_core/lpc_board/boards_11xx/nxp_lpcxpresso_1125" dest="inc">
+			<include>sys_config.h</include>
+		</import>
+    </if>
+    
+    <!-- Copy required lpc175x_6x specific files into created project -->
+    <if test="1125==175x_6x">
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_11xx" dest="inc">
+            <include>*.h</include>
+		    <exclude>cmp_17xx_40xx.h</exclude>
+		    <exclude>crc_17xx_40xx.h</exclude>
+		    <exclude>eeprom_17xx_40xx.h</exclude>
+		    <exclude>emc_17xx_40xx.h</exclude>
+		    <exclude>lcd_17xx_40xx.h</exclude>
+		    <exclude>sdc_17xx_40xx.h</exclude>
+		    <exclude>sdmmc_17xx_40xx.h</exclude>
+		    <exclude>spifi_17xx_40xx.h</exclude>
+        </import>
+    
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_11xx" dest="src">
+            <include>*.c</include>
+		    <exclude>cmp_17xx_40xx.c</exclude>
+		    <exclude>crc_17xx_40xx.c</exclude>
+		    <exclude>eeprom_17xx_40xx.c</exclude>
+		    <exclude>emc_17xx_40xx.c</exclude>
+		    <exclude>lcd_17xx_40xx.c</exclude>
+		    <exclude>sdc_17xx_40xx.c</exclude>
+		    <exclude>sdmmc_17xx_40xx.c</exclude>
+        </import>
+        
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_common" dest="inc">
+		    <include>*.h</include>
+	    </import>
+    </if>
+    
+    <!-- Copy required lpc177x_8x specific files into created project -->
+    <if test="1125==177x_8x">
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_11xx" dest="inc">
+            <include>*.h</include>
+		    <exclude>cmp_17xx_40xx.h</exclude>
+		    <exclude>ritimer_17xx_40xx.h</exclude>
+		    <exclude>spi_17xx_40xx.h</exclude>
+		    <exclude>spifi_17xx_40xx.h</exclude>
+        </import>
+    
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_11xx" dest="src">
+            <include>*.c</include>
+		    <exclude>cmp_17xx_40xx.c</exclude>
+		    <exclude>ritimer_17xx_40xx.c</exclude>
+		    <exclude>spi_17xx_40xx.c</exclude>
+        </import>
+        
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_common" dest="inc">
+		    <include>*.h</include>
+		    <exclude>ring_buffer.h</exclude>
+	    </import>
+        
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_common" dest="src">
+		    <include>*.c</include>
+		    <exclude>ring_buffer.c</exclude>
+	    </import>
+    </if>
+    
+    <!-- Copy required lpc407x_8x specific files into created project -->
+    <if test="1125==407x_8x">
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_11xx" dest="inc">
+            <include>*.h</include>
+		    <exclude>ritimer_17xx_40xx.h</exclude>
+		    <exclude>spi_17xx_40xx.h</exclude>
+        </import>
+    
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_11xx" dest="src">
+            <include>*.c</include>
+		    <exclude>ritimer_17xx_40xx.c</exclude>
+		    <exclude>spi_17xx_40xx.c</exclude>
+        </import>
+        
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_common" dest="inc">
+		    <include>*.h</include>
+		    <exclude>ring_buffer.h</exclude>
+	    </import>
+        
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_common" dest="src">
+		    <include>*.c</include>
+		    <exclude>ring_buffer.c</exclude>
+	    </import>
+    </if>
+    
+    <!-- Copy required lpc18xx_43xx specific files into created project -->
+    <if test="11xx==18xx_43xx">
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_common" dest="inc">
+		    <include>*.h</include>
+	    </import>
+        
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_common" dest="src">
+		    <include>*.c</include>
+	    </import>
+    </if>
+    
+    <!-- Copy required lpc18xx_43xx specific files into created project -->
+    <if test="1125==18xx">
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_11xx" dest="inc">
+            <include>*.h</include>
+            <exclude>sgpio_18xx_43xx.h</exclude>
+            <exclude>spi_18xx_43xx.h</exclude>
+        </import>
+    
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_11xx" dest="src">
+            <include>*.c</include>
+            <exclude>spi_18xx_43xx.c</exclude>
+        </import>
+
+		<import src="../../../../../software/lpc_core/lpc_board/boards_11xx/nxp_lpcxpresso_1125/nxp_lpcxpresso_1125" dest="inc">
+			<include>sys_config.h</include>
+		</import>
+    </if>
+    
+    <!-- Copy required lpc43xx specific files into created project -->
+    <if test="1125==43xx">
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_11xx" dest="inc">
+            <include>*.h</include>
+        </import>
+    
+        <import src="../../../../../software/lpc_core/lpc_chip/chip_11xx" dest="src">
+            <include>*.c</include>
+        </import>
+
+		<import src="../../../../../software/lpc_core/lpc_board/boards_11xx/nxp_lpcxpresso_1125/nxp_lpcxpresso_1125" dest="inc">
+			<include>sys_config.h</include>
+		</import>
+    </if>
+
+    <!-- Copy required M0PLUS CMSIS files into created project -->
+    <if test="M0==M0PLUS">
+        <import src="../../../../../software/CMSIS/CMSIS/Include" dest="inc">
+            <include>core_cm0plus.h</include>
+		    <include>core_cmFunc.h</include>
+		    <include>core_cmInstr.h</include>
+        </import>
+    </if>
+    
+    <!-- Copy required M0 CMSIS files into created project -->
+    <if test="M0==M0">
+        <import src="../../../../../software/CMSIS/CMSIS/Include" dest="inc">
+            <include>core_cm0.h</include>
+		    <include>core_cmFunc.h</include>
+		    <include>core_cmInstr.h</include>
+        </import>
+    </if>
+    
+    <!-- Copy required M3 CMSIS files into created project -->
+    <if test="M0==M3">
+        <import src="../../../../../software/CMSIS/CMSIS/Include" dest="inc">
+            <include>core_cm3.h</include>
+		    <include>core_cmFunc.h</include>
+		    <include>core_cmInstr.h</include>
+        </import>
+    </if>
+    
+    <!-- Copy required M4 CMSIS files into created project -->
+    <if test="M0==M4">
+        <import src="../../../../../software/CMSIS/CMSIS/Include" dest="inc">
+            <include>core_cm4.h</include>
+		    <include>core_cmFunc.h</include>
+		    <include>core_cmInstr.h</include>
+		    <include>core_cm4_simd.h</include>
+        </import>
+    </if>
+
+    <import src="">
+        <include>liblinks.xml</include>
+        <grep pattern="WIZARD_PROJNAME" replace="nxp_lpcxpresso_812_board_lib"></grep>
+    </import>
+
+<settings>
+
+	<!-- Set a compiler define -->
+    <setting id="compiler.def">
+        <value>CORE_M0</value>
+    </setting>
+
+	<!-- Set a FP - Soft-ABI -->
+    <if test="M0==M4">
+        <setting id="assembler.fp">
+			<value>com.crt.advproject.gas.fpu.fpv4</value>
+		</setting>
+		<setting id="compiler.c.fp">
+			<value>com.crt.advproject.gcc.fpu.fpv4</value>
+		</setting>
+		<setting id="cpp.compiler.c.fp">
+			<value>com.crt.advproject.cpp.fpu.fpv4</value>
+		</setting>
+		<setting id="all.compiler.flags">
+			 <value>-fsingle-precision-constant</value>
+		</setting>
+		<setting id="linker.fp">
+		  <value>com.crt.advproject.link.fpu.fpv4</value>
+		</setting>
+    </if>
+
+	<!-- Change optimisation level for Release build to -Os (default = -O2) -->
+	<setting id="all.compiler.opt" buildType="Release">
+		<value>-Os</value>
+	</setting>
+	
+	<!-- Set up include paths for use within library project -->
+	<setting id="compiler.inc">
+		<value>${workspace_loc:/${ProjName}/inc}</value>
+	</setting>
+
+	<!-- Set up C library include paths to be Redlib (rather than Newlib) -->
+	<setting id="assembler.c.header">
+		<value>Redlib</value>
+	</setting>
+	<setting id="compiler.c.header">
+		<value>Redlib</value>
+	</setting>
+
+</settings>
+</script>
+</project>
