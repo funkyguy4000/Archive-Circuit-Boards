@@ -7,71 +7,175 @@ A collection of my circuit boards and devices
 ###This is a collection the parts I've made.  Some of the packages are copied from other libraries.
 I'll list the important devices here:
 
-* **25AA1024** -         DFN8-5x6
-                         8-PDIP
-                         SO8
-* **74AVC8T245** -       QFN-60
-                         TSSOP-48
++ **25AA1024**  
+  + DFN8-5x6
+  + 8-PDIP
+  + SO8
 
-* **AD1939**   -         QFP64
-* **ADP5589**  -         24-LFCSP (QFN)
-                         25-WLCSP (BGA)
-* **ADSP-21479** -       QFN-88
-* **ADSP-21483/6/7/9** - LQFP-176
-* **AS1130**   -         TSSOP-28
-                         WL_CSP-20 (BGA)
-* **AS3935**   -         QFN-16
-* **AT25128B/256B**   -  8VBGA
-* **ATMEGA8U2** -        QFN-32
-* **ATMEGA16**  -        40-PDIP
-* **ATTINY4/5/69/10** -  SOT-23-6
-* **BGF120A** -          TSLP-4-8
-* **CS4234** -           QFN-40
-* **CS4344**   -         TSSOP-10
-* **CS5343**   -         TSSOP-10
-* **CS42436**  -         QFP-52
-* **DS1077**   -         TSSOP-8
-* **FRDM-KL26Z** -       ***NOT TO BE USED FOR LAYOUT*** Only schematic purposes
-* **FT221X**   -         20-QFN
-                         20-SSOP
-* **FT234XD**  -         DFN12-3x3
-* **HIH-6130** -         SO-8
-* **HMC5983**  -         QFN-16
-* **L3GD20TR** -         LGA-16
-* **LIS3MDL** -          LGA-12
-* **LSM303DLHC** -       LGA-14
-* **LT8500** -           QFN-56
-* **LTC3539**  -         DFN8-3x3
-* **LTC3605**  -         QFN24
-* **LTC3811**  -         QFN38
-* **M24M01**   -         BGA-8
-* **MCP2210** -          QFN-20
-                         SSOP-20
++ **74AVC8T245**  
+  + QFN-60
+  + TSSOP-48
 
-* **MMA8453QT**-         QFN-16
-* **MMBT3904** -         SOT-23
-* **MT48LCM16A2** -      TSOP-54
-* **OP275**    -         SO-8
-* **PMOD**     -         2x6 .1"
-* **PT15** -             1206
-* **RCA_Double** -       Custom
-* **SJ1-3514-SMT** -     Custom
-* **SJ3524**   -         Custom
-* **TLC5940** -          DIL28-3           *TLC5940 from Sparkfun
-                         QFN-32
-                         TSSOP28-GROUNDPAD
-* **TLC5947** -          QFN-32
-* **TLC5958** -          QFN-56
-* **TPS62130A** -        QFN16-3x3
-* **TPS84320** -         RUQ_47(QFN)
-* **TS3USB221** -        10-QFN
-                         10-SON
-* **USB5534B** -         QFN-64
-* **USBA-DOUBLE** -      Custom
-* **WS2812-5050** -      Custom
-* **XS1-L8A-128** -      QFN-124
-* **XS1-U8A-124**-       BGA-217
-* **XTAG-2**  -          MOLEX-52745-2097
++ **AD1939**  
+  + QFP64
+ 
++ **ADP5589**  
+  + 24-LFCSP (QFN)
+  + 25-WLCSP (BGA)
+ 
++ **ADSP-21479**  
+  + QFN-88
+ 
++ **ADSP-21483/6/7/9**  
+  + LQFP-176
+  + 
++ **AS1130**  
+  + TSSOP-28
+  + WL_CSP-20 (BGA)
+ 
++ **AS3935**
+  + QFN-16
+  
++ **AT25128B/256B** 
+  + 8VBGA
+ 
++ **ATMEGA8U2**
+  + QFN-32
+ 
++ **ATMEGA16** 
+  + 40-PDIP
+ 
++ **ATTINY4/5/69/10**  
+  + SOT-23-6
+  
++ **BGF120A**  
+  + TSLP-4-8
+ 
++ **CS4234**  
+  + QFN-40
+
++ **CS4344**  
+  + TSSOP-10
+
++ **CS5343**  
+  + TSSOP-10
+
++ **CS42436**  
+  + QFP-52
+
++ **DS1077**  
+  + TSSOP-8
+
++ **FRDM-KL26Z**  
+  +  ***NOT TO BE USED FOR LAYOUT*** Only schematic purposes
+
++ **FT221X**  
+  + 20-QFN
+  + 20-SSOP
+
++ **FT234XD**  
+  + DFN12-3x3
+
++ **HIH-6130**  
+  + SO-8
+
++ **HMC5983**  
+  + QFN-16
+
++ **L3GD20TR**  
+  + LGA-16
+
++ **LIS3MDL**  
+  + LGA-12
+
++ **LSM303DLHC**  
+  + LGA-14
+
++ **LT8500**
+  + QFN-56
+
++ **LTC3539**
+  + DFN8-3x3
+
++ **LTC3605**
+  + QFN24
+
++ **LTC3811**
+  + QFN38
+
++ **M24M01** 
+  + BGA-8
+
++ **MCP2210**
+  + QFN-20
+  + SSOP-20
+
++ **MMA8453QT**
+  + QFN-16
+
++ **MMBT3904**
+  + SOT-23
+
++ **MT48LCM16A2**
+  + TSOP-54
+
++ **OP275** 
+  + SO-8
+
++ **PMOD**
+  + 2x6 .1" Header
+
++ **PT15**
+  + 1206
+
++ **RCA_Double**
+  + Custom
+
++ **SJ1-3514-SMT**
+  + Custom
+
++ **SJ3524**
+  + Custom
+
++ **TLC5940**
+  + DIL28-3
+  + QFN-32
+  + TSSOP28-GROUNDPAD
+                                                
++ **TLC5947**
+  + QFN-32
+
++ **TLC5958**
+  + QFN-56
+
++ **TPS62130A**
+  + QFN16-3x3
+
++ **TPS84320**
+  + RUQ_47(QFN)
+
++ **TS3USB221**
+  + 10-QFN
+  + 10-SON 
+                      
++ **USB5534B**
+  + QFN-64
+
++ **USBA-DOUBLE**
+  + Custom
+
++ **WS2812-5050**
+  + Custom
+
++ **XS1-L8A-128**
+  + QFN-124
+
++ **XS1-U8A-124**
+  + BGA-217
+
++ **XTAG-2**
+  + MOLEX-52745-2097
++ 
 
 ##On to the boards!
 
